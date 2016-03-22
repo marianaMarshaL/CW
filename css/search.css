@@ -1,0 +1,331 @@
+/*Styles for Campground Search Starts*/
+.content_search {
+    margin-top: 180px;
+}
+.breadcrumbs {
+    padding: 20px 0px;   
+    font-size: 14px;
+}
+.breadcrumbs a {color:#509cba; font-family: 'Gotham-Medium' !important;}
+.search-rightpanel {
+    margin-top: 60px;
+}
+.hawkRailNav {
+    background: none !important;
+    border:none !important;
+    position: relative;
+}
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main{
+    max-width:inherit;
+}
+.hawk-railNavHeading, .hawk-recentSearches, .hawk-sortWrapper, .hawk-viewNumber, .total {display: none !important;}
+.hawk-selectedNav {
+    background: none !important;
+    border: none !important;
+}
+.hawk-navGroupContent { padding: 0px !important;}
+.hawk-selectedNav h4.hawk-groupHeading { font-family: 'Gotham-Medium';font-size: 22px !important; font-weight: normal !important; color: #666;padding:20px 0 15px !important;}
+.hawk-selectedNav .hawk-clearSelected {padding:0; position: absolute;top:15px; right: 0px; font-family: 'Gotham-Medium'; font-size: 12px !important; color: #666;  }
+.hawk-guidedNavWrapper .hawk-clearSelected a, .hawk-guidedNavWrapper .hawk-clearSelected a:link, .hawk-guidedNavWrapper .hawk-clearSelected a:visited {font-size: 12px !important;}
+.hawk-selectedHeading {
+    border:none;
+    display: none;
+}
+.hawk-selectedGroup, .hawk-selectedGroup ul {
+  background: none !important;
+  border: none !important;
+}
+.hawk-selectedGroup {border-bottom: none !important}
+.hawk-selectedGroup ul {padding: 0px !important; margin: 0px !important;}
+.hawk-guidedNavWrapper .hawk-selectedGroup ul li { border: 1px solid #ccc; line-height: 40px; padding:0 10px 0 15px; background: #fff;margin:5px 0!important;float:left;width:100%;}
+.hawk-selectedGroup ul li a { font-family: 'Gotham-Book';font-size:12px !important; background:url(https://images3.campingworld.com/CampingWorld/images/V2/GS/cam-search/close-icons.jpg) no-repeat right!important; display: block !important; color: #666666 !important;text-transform:uppercase;}
+.hawkIcon-close {display: none;}
+.hawk-resultsSearch label {display: none !important;}
+.hawk-navGroup {border: none !important;}
+.hawk-collapsed {border: 1px solid #ccc !important; padding:0px !important; font-family: 'Gotham-Medium' !important; font-weight: normal !important; background: #ffffff !important; font-size: 16px; }
+.hawk-collapsed .hawk-facet-tooltip { display: none; }
+.hawk-guidedNavWrapper .hawk-navGroup .hawk-resultsSearch .hawk-searchWithinButton {background-color: #ffc60a !important; top: 0 !important; right: 0px !important; bottom: 0 !important; width: 46px; text-align: center; font-size: 21px !important; color: #ffffff !important; padding-top: 6px !important; border-radius: 0px 4px 4px 0px !important;}
+.hawkRailNav .hawk-guidedNavWrapper .hawk-navGroup .hawk-resultsSearch input[type="text"] {border-radius: 4px !important; height: 40px !important;}
+.hawk-searchWithin { margin-bottom: 20px !important; }
+.hawk-navGroup .hawk-groupHeading {font-family: 'Gotham-Medium'; font-size: 12px !important; color:#666!important; font-weight: normal !important;}
+.hawk-styleCheckbox {
+    font-family: 'Gotham-Book' !important;
+    font-size: 13px !important;
+    color: #666 !important;
+    padding: 5px 0px 5px 0px;
+}
+.hawk-guidedNavWrapper .hawk-navGroup li .hawk-styleCheckbox:before {
+    width: 20px !important; height: 20px !important; top: 7px !important; line-height: 16px !important; padding-left: 2px;
+}
+.hawk-guidedNavWrapper .hawk-navGroup li.hawkFacet-indetermined > .hawk-styleCheckbox:after {
+    left: 5px !important; top: 12px !important; width: 10px !important; height: 10px !important;
+}
+.hawk-selectionInner { padding-left: 10px; display: inline-block;line-height:24px;}
+.hawk-rating {margin-top: 4px;}
+.hawk-mainControls {
+    background: none !important;
+    text-align: center;
+}
+.hawk-paging {float: none !important;}
+.hawk-pagination {float: none !important; text-align: center;}
+.hawk-listingControls {
+    border: none !important;
+    background: none !important;
+    margin: 20px 0px !important;
+}
+.hawk-pageLink {background: none !important; width: 26px; line-height: 26px; text-align: center; font-size: 16px; color: #4a4a4a;}
+.hawk-pageActive {background: #1d4567 !important; color: #ffffff !important; width: 26px; line-height: 26px; font-size: 16px; text-align: center;}
+.hawk-arrowRight, .hawk-arrowLeft { color: #4a4a4a !important;}
+.hdng {display: inline; font-family: 'Gotham-Book' !important; font-size: 16px !important; font-weight: normal; margin: 0px !important;}
+/*20-01-2015*/
+.breadcrumbs{
+    margin:0!important;
+    padding:0!important;    
+}
+.breadcrumb li,.breadcrumb li span{
+    font:normal 14px Gotham-Light!important;	
+}
+.breadcrumb li span{   
+	padding-right:3px;
+}
+.breadcrumb li span.crumbon{
+	padding-left:5px;
+}
+.breadcrumb li a{
+    font:normal 14px Gotham-Medium!important;
+    color:#509cba;
+}
+.breadcrumb li a:hover{
+	text-decoration:underline;
+	color:#509cba;
+}
+#leftpane .left-accordion{
+    border-top:none;
+}
+.hawk-navGroup .hawk-groupHeading{
+    border:none!important;
+    background:none!important;
+}
+div[data-field='facet-department_nest']{
+	border-top:#ccc 1px solid!important;
+}
+.hawk-guidedNavWrapper .hawk-navGroup:last-child .hawk-navGroupContent{
+	border-bottom:#ccc 1px solid!important;
+}
+.hawk-guidedNavWrapper .hawk-collapsible .hawk-groupHeading{
+	border:#ccc 1px solid!important;
+	border-top:none!important;
+}
+.hawk-collapsed{
+ border:none!important;
+}
+.hawk-guidedNavWrapper .hawk-navGroup{
+	padding-top:0!important;
+	float:left;
+	width:100%;
+}
+.hawk-guidedNavWrapper .hawk-navGroup.hawk-collapsible{
+	 width:100%;
+	 float:left;
+	 padding:0;
+	 background:#fff;
+}
+.hawk-searchWithin{
+	 width:100%;
+	 float:left;
+}
+.hawk-navGroupContent{
+	border:#ccc 1px solid;
+	border-top:none;
+	background:none;
+	float:left;
+	width:100%;
+	padding:10px!important;
+}
+.hawk-navGroupContent.hawk-resultsSearch{
+	border:none;
+	margin-top:10px;
+	padding:0!important;
+}
+.hawk-guidedNavWrapper .hawk-groupHeading:after{
+	top:14px!important;
+	font-family:Gotham-Medium!important;
+	font-size:19px!important;
+}
+.hawk-guidedNavWrapper .hawk-navGroup input[type="text"]{
+	height:35px!important;
+	border-radius:4px!important;	
+	font:normal 13px Gotham-Light!important;
+	color:#9b9b9b!important;
+	line-height:30px!important;
+}
+.hawk-guidedNavWrapper .hawk-navGroup li{
+	margin:2px 0!important;
+}
+.hawk-guidedNavWrapper .hawk-navGroup.hawk-selectedNav{
+	border-top:none!important;
+	padding:0!important;
+}
+.hawk-guidedNavWrapper .hawk-navGroup.hawk-selectedNav .hawk-navGroupContent{
+	border:none!important;
+	padding:0!important;
+}
+.hawk-guidedNavWrapper .hawk-selectedGroup{
+	padding:5px 0!important;
+}
+div[data-field='facet-color-property']{
+	padding-bottom:0!important;
+}
+div[data-field='facet-color-property'] .hawk-navGroupContent{
+	border-top:#ccc 1px solid!important;
+	background:#fff;
+}
+div[data-field='facet-color-property']  h4{
+	padding-left:0!important;
+}
+div[data-field='facet-color-property'].hawk-navGroup li{
+	margin:0 4px!important;
+}
+div[data-field='facet-color-property'] .hawk-selectionInner{
+	padding:0!important;
+}
+div[data-field='facet-color-property'].hawk-navGroup li a.hawk-styleSwatch,div[data-field='facet-color-property'].hawk-navGroup li a.hawk-styleSwatch:visited{
+	width:auto!important;
+	height:auto!important;
+}
+.hawk-guidedNavWrapper .hawk-groupHeading{
+  font:normal 12px Gotham-Medium!important;
+}
+.hawk-guidedNavWrapper .hawk-collapsed .hawk-groupHeading::after,.hawk-guidedNavWrapper .hawk-collapsible .hawk-groupHeading::after,.hawk-guidedNavWrapper .hawk-navGroup .hawk-groupHeading:after{
+	background:url(https://images2.campingworld.com/CampingWorld/images/V2/CW/pdp/down.png) no-repeat;
+	content:''!important;
+	width:16px;
+	height:8px;
+	margin-top:5px;
+}
+.hawk-guidedNavWrapper .hawk-notCollapsed .hawk-groupHeading::after{
+	background:url(https://images2.campingworld.com/CampingWorld/images/V2/CW/pdp/up.png) no-repeat;
+	content:''!important;
+	width:16px;
+	height:8px;
+	margin-top:5px;
+}
+/*plp Hawk css start*/
+.hawk-plp .hawk-listingControls .hawk-pagination .hawk-viewNumber{display:none!important;}
+.hawk-plp .hawk-sortWrapper .sortList label{display:none!important;}
+.hawk-plp .hawk-listingControls {border: none !important;background: none !important;margin:0!important;float:left;width:50%;padding:0!important;}
+.hawk-plp #hawkbottompager .hawk-listingControls {width:100%;}
+.hawk-plp .hawk-listingControls .hawk-pagination .total{display:block!important;font: normal 16px Gotham-Book;color:#666!important;line-height:39px;}
+.hawk-plp #hawkbottompager .hawk-listingControls .hawk-pagination .hawk-paging{text-align:center;}
+.hawk-plp #hawkbottompager .hawk-listingControls .hawk-pagination .hawk-paging .total{display:none!important;}
+.hawk-plp .hawk-listingControls .hawk-pagination .hawk-paging{color:#666;font: normal 16px Gotham-Book;line-height:39px!important;}
+.hawk-plp .hawk-listingControls .hawk-pagination{text-align:left;line-height:39px;color:#666;font: normal 16px Gotham-Book;margin:0!important;}
+.hawk-plp .hawk-listingControls .hawk-mainControls{padding:0!important;}
+.hawk-plp .hawk-sortWrapper .sortList{padding:0 10px 0 0!important;}
+.hawk-plp .hawk-sortWrapper .sortList select{background:#fff url(https://images2.campingworld.com/CampingWorld/images/V2/CW/common/down1.png) right center no-repeat!important;}
+.hawk-plp #hawktabs{display:none;}
+.hawk-plp .hawk-sortWrapper{display:block!important;margin:0!important;}
+
+
+/*plp hawk css end*/
+
+@media (max-width:1280px){
+	.hawk-selectedNav h4.hawk-groupHeading {
+		font-size:16px!important;
+	}
+}
+
+@media (max-width:780px){
+    .content_search {margin-top: 40px !important;}
+    .search-rightpanel {margin-top: 0px !important;}
+	#hawkbottompager{
+		float:left!important;
+		width:100% !important;
+	}
+	.model-sorting{
+		margin:0!important;
+		width:100%!important;
+		left:0!important;
+		top:0!important;
+		border-radius:0!important;
+	}
+	.model-sorting .modal-dialog .modal-body{
+		padding:20px 10px!important;
+		max-height:inherit!important;
+	}	
+	.hawk-guidedNavWrapper .hawk-navGroup{
+		padding:0!important
+	}	
+	.model-sorting .panel-group{
+		border-top:none!important;
+	}
+	.model-sorting .model-btn .cancel,.model-sorting .model-btn .done{
+		box-shadow:0 0 0 0;
+		margin-left:0;
+		margin-right:0;
+	}
+	.hawk-guidedNavWrapper .hawk-collapsible .hawk-groupHeading,div[data-field='facet-color-property'] h4.hawk-groupHeading{
+		text-transform:uppercase;
+	}	
+}
+@media (max-width:767px){
+	/*mobile plp*/	
+	.hawkRailNav{
+		display:block!important;
+	}
+	.hawk-guidedNavWrapper .hawk-navGroup li a, .hawk-guidedNavWrapper .hawk-navGroup li a:visited{
+		padding:0!important;		
+	}
+	.hawk-selectionInner{
+		padding-left:40px;
+	}
+	#hawkfacet_department_nest .hawk-selectionInner{
+		padding-left:10px!important;
+	}
+	.model-sorting .model-btn .cancel, .model-sorting .model-btn .done{
+		font-size:19px;
+	}
+	.hawk-guidedNavWrapper .hawk-navGroup li{
+		margin:4px 0!important;
+	}	
+	.hawk-selectedNav h4.hawk-groupHeading:before{
+		/*content:''!important;*/
+		top:25px!important;
+	}
+	.hawk-selectedNav h4.hawk-groupHeading:after{
+		/*content:''!important;*/
+		top:25px!important;
+	}
+	div[data-field='facet-color-property'] h4.hawk-groupHeading{
+		padding-left:15px!important;
+		border-left:#ccc 1px solid!important;
+		border-right:#ccc 1px solid!important;
+		border-bottom:#ccc 1px solid!important;
+	}
+	.hawk-guidedNavWrapper .hawk-selectedGroup ul li a{
+		border-top:none!important;
+	}
+	div[data-field='facet-color-property'].hawk-notCollapsed	h4.hawk-groupHeading{		
+		border-bottom:none!important;
+	}
+	.hawk-guidedNavWrapper .hawk-navGroup.hawk-selectedNav{
+		padding-bottom:15px!important;
+	}
+	.hawk-guidedNavWrapper .hawk-clearSelected{
+		padding:30px 0px 0 0!important;
+	}
+	.model-sorting .modal-dialog .modal-body{
+		padding:20px 0px!important;
+		max-height:inherit!important;
+	}
+}
+
+@media (max-width:420px){
+	.plp-gridview li .list-border .price span.price-off span{
+		font-size:12px;
+	}
+}
+
+
+
+/*Styles for Campground Search Ends*/

@@ -1,0 +1,1254 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Camping World</title>
+  <!-- Bootstrap core CSS -->
+<!-- JS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<!-- Custom styles for this template -->
+<link href="css/gs-custom.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/build.css"/>
+<!-- bxSlider CSS file -->
+  <script>
+      $(document).bind('mobileinit',function(){
+          $.mobile.changePage.defaults.changeHash = false;
+          $.mobile.hashListeningEnabled = false;
+          $.mobile.pushStateEnabled = false;
+      });
+  </script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function () {
+          if ($(window).width() < 768) {
+              $("#waterwheel-carousel").waterwheelCarousel({
+                  flankingItems:1,
+                  separation: 90,
+                  forcedImageWidth:150,
+                  forcedImageHeight:150,
+                  horizon: 115,
+                  horizonOffset: 50,
+                  horizonOffsetMultiplier: .7,
+                  edgeFadeEnabled: true,
+                  autoPlay:2500,
+                  keyboardNav:true ,
+                  opacityMultiplier:0.5,
+                  movedToCenter: function ($newCenterItem) {$newCenterItem.next('.carousel-caption').show();},
+                  movingFromCenter: function ($oldCenterItem) {$oldCenterItem.next('.carousel-caption').hide();},
+              });
+          }
+          else{
+              $("#waterwheel-carousel").waterwheelCarousel({
+                  horizon: 150,
+                  horizonOffset: 45,
+                  horizonOffsetMultiplier: .7,
+                  separation: 170,
+                  edgeFadeEnabled: true,
+                  flankingItems:3 ,
+                  autoPlay:2500,
+                  keyboardNav:true ,
+                  forcedImageWidth:300,
+                  forcedImageHeight:290,
+                  opacityMultiplier:0.7,
+                  movedToCenter: function ($newCenterItem) {$newCenterItem.next('.carousel-caption').show();},
+                  movingFromCenter: function ($oldCenterItem) {$oldCenterItem.next('.carousel-caption').hide();},
+              });
+          }
+      });
+  </script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/common.js"></script>
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link href="css/global-menu.css" rel="stylesheet" />
+  </head>
+  <body>
+  <div id="wrapper">
+
+  <div id="sidebar-wrapper"  >
+      <ul class="sidebar-nav">
+          <li class="mainData" data-item="1">
+              <a href="#">
+                  <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/Shop-blue.png">
+                  <span> SHOP</span>
+              </a>
+
+          </li>
+          <li class="mainData" data-item="2">
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/RV_services.png"><span>RV SERVICES</span></a>
+
+          </li>
+          <li class="mainData" data-item="3">
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/RV_Sales.png"><span>RV SALES</span></a>
+              <ul class="innerContent" id="rvservice"></ul>
+          </li>
+          <li>
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/Good%20Sam.png"><span>GOOD SAM</span></a>
+          </li>
+          <li>
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/Assist.png"><span>ASSIST</span></a>
+          </li>
+          <li>
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/Protect.png"><span>PROTECT</span></a>
+          </li>
+          <li>
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/Finance.png"><span>FINANCE</span></a>
+          </li>
+          <li>
+              <a href="#"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/hamburgerMenu/Account.png"><span>ACCOUNT</span></a>
+          </li>
+      </ul>
+      <ul class="innerContent " id="categories">
+          <li>BACK</li>
+          <li>AIR CONDITIONERS</li>
+          <li>DISH WASHING</li>
+          <li>PORTABLE HEATERS &amp; FURNACES</li>
+          <li>SMALL APPLIANCES</li>
+          <li>REFRIGERATORS</li>
+          <li>WASHER &amp; DRYERS</li>
+          <li>VACCUMS &amp; STEAM MOPS</li>
+          <li>VIEW ALL</li>
+      </ul>
+  </div>
+
+  <div id="page-content-wrapper" class="no_pad">
+    <div class="header">
+      <div class="top-nav hidden-xs hidden-sm visible-md visible-lg clearfix">
+        <div class="container no_pad">
+          <ul class="left-nav">
+           <!-- <li><h1><a href="javascript:void(0);"><img alt="camping-world" title="camping world" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/camping-world.jpg" /></a></h1></li>-->
+            <li><img alt="Good Sam" title="Good Sam" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/icons/good-sam-logo.png" /></li>
+            <li><img alt="auto match USA" title="auto match USA" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/icons/automach.png" /></li>
+          </ul>
+          <ul class="right-nav">
+            <li class="top-lang dropdown">
+              US - ENGLISH 
+              <a  id="language-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="toparrow down"></span> <span class="toparrow up"></span></a>
+              <ul class="dropdown-menu top-subnav" aria-labelledby="language-dropdown" data-toggle="dropdown">
+                <li><a href="#" title="US – ENGLISH">US – ENGLISH</a></li>
+                <li><a href="#" title="US – FRENCH">US – FRENCH</a></li>
+                <li><a href="#" title="CA – ENGLISH">CA – ENGLISH</a></li>
+                <li><a href="#" title="US – RUSSIAN">US – RUSSIAN</a></li>
+                <li><a href="#" title="US – SPANISH">US – SPANISH</a></li>
+                <li><a href="#" title="US – GERMAN">US – GERMAN</a></li>
+                <li><a href="#" title="US - PORTUGESE">US - PORTUGESE</a></li>
+              </ul>
+            </li>
+           <li class="top-ph"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/icons/mobile.png" /> 1-888-626-7576</li>
+                <li class="top-stor"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/icons/locator.png" /> STORE</li>
+            <li class="top-welcome dropdown">
+              <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/icons/profile.png" /> WELCOME, JAMES  <a  id="welcome-dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="toparrow down"></span> <span class="toparrow up"></span></a>
+              <ul class="dropdown-menu top-subnav top-welcome" aria-labelledby="welcome-dropdown" data-toggle="dropdown">
+                <li><a href="#" title="Your Account">Your Account</a></li>
+                <li><a href="#" title="Order History">Order History</a></li>
+                <li><a href="#" title="Sign Out">Sign Out</a></li>
+              </ul>
+            </li>
+            <li class="bag-icon"><span class="bag-icon-bg"><a href="#">12</a></span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-nav hidden-xs hidden-sm visible-md visible-lg">
+        <div class="container no_pad">
+          <ul class="mainnav-left">
+            <li class="cw-logo"><h1><a href="#" title="Camping World"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/logo.png" alt="Camping World" /></a></h1></li>
+            <li class="top-mrg dropdown">
+              <a href="#" title="OUR DEPARTMENTS" id="main-dropdown1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR DEPARTMENTS <span class="main-arrow down"></span> <span class="main-arrow up"></span></a>
+              <div class="main-subdropdown dropdown-menu" aria-labelledby="main-dropdown1">
+                <div class="main-sublevelmenu-left">
+                  <h3>SHOP OUR<br/> DEPARTMENTS</h3>
+                  <ul>
+                    <li><a href="#" title="">Appliances, A/C’s & Heaters</a></li>
+                    <li><a href="#" title="">Awnings, Canopies & Shade</a></li>
+                    <li><a href="#" title="">Bikes, Bike Racks & Carriers</a></li>
+                    <li><a href="#" title="">Directories & Memberships</a></li>
+                    <li><a href="#" title="">Camping & Tailgating</a></li>
+                    <li><a href="#" title="">Chairs, Recliners & Patio Mats</a></li>
+                    <li><a href="#" title="">Covers & Storage</a></li>
+                    <li><a href="#" title="">Electronics, GPS & Satellite</a></li>
+                    <li><a href="#" title="">Generators & Electrical</a></li>
+                    <li><a href="#" title="">Grills & Picnic</a></li>
+                    <li><a href="#" title="">Hardware, Roof Vents & Fans</a></li>
+                    <li><a href="#" title="">Indoor Living</a></li>
+                    <li><a href="#" title="">Outdoor Living</a></li>
+                    <li><a href="#" title="">Pet, Training & Feeders</a></li>
+                    <li><a href="#" title="">Sewer, Fresh Water & Cleaners</a></li>
+                    <li><a href="#" title="">Towing, Levels & Chocks</a></li>
+                  </ul>
+                </div>
+                <div class="main-sublevelmenu-right">
+                  <div class="mainsub-nav1">
+                    <h3>SHOP MORE APPLIANCES,<br/>AC’S & HEATERS</h3>
+                    <ul>
+                      <li><a href="#" title=""> Air Conditioners</a></li>
+                      <li><a href="#" title="">Dish Washing</a></li>
+                      <li><a href="#" title="">Portable Heaters & Furnaces</a></li>
+                      <li><a href="#" title="">Small Appliances</a></li>
+                      <li><a href="#" title="">Refrigerators</a></li>
+                      <li><a href="#" title="">Washers & Dryers</a></li>
+                      <li><a href="#" title="">Vacuums and Steam Mops</a></li>
+                      <li class="view-all"><a href="#" title="">VIEW ALL APPLIANCES, AC’S<br/> AND HEATER PRODUCTS</a></li>
+                    </ul>
+                  </div>
+                  <div class="mainsub-nav2">
+                    <h3>SHOP OUR<br/>TOP BRANDS</h3>
+                    <ul>
+                      <li><a href="#" title="">Dometic</a></li>
+                      <li><a href="#" title="">Norcold</a></li>
+                      <li><a href="#" title="">Atwood Mobile</a></li>
+                      <li><a href="#" title="">Camco</a></li>
+                      <li><a href="#" title="">Fire Sense</a></li>
+                      <li><a href="#" title="">Mr. Heater</a></li>
+                      <li><a href="#" title="">Westland</a></li>
+                      <li><a href="#" title="">Classic Accessories</a></li>
+                      <li><a href="#" title="">Koolatron Corp</a></li>
+                      <li class="lastchild"><a href="#" title="">Howard Berger</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mainnav-bestseller clearfix">
+                  <h3>BEST SELLERS</h3>
+                  <ul>
+                    <li>
+                      <div class="best-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/best1.png" alt="Disc Furnace" />
+                      </div>
+                      <h4>Disc Furnace</h4>
+                      <span>$79.97</span>
+                    </li>
+                    <li>
+                      <div class="best-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/best2.png" alt="Mr. Heater Portable Buddy Heater" />
+                      </div>
+                      <h4>Mr. Heater Portable Buddy Heater</h4>
+                      <span>$79.97</span>
+                    </li>
+                    <li>
+                      <div class="best-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/best3.png" alt="Dometic Convection Microwave" />
+                      </div>
+                      <h4>Dometic Convection Microwave</h4>
+                      <span>$79.97</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="top-mrg dropdown">
+              <a href="#" title="RV SERVICES" id="main-dropdown2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RV SERVICES <span class="main-arrow down"></span> <span class="main-arrow up"></span></a>
+              <div class="main-subdropdown dropdown-menu main-subdropdown1">
+                  <ul class="rv-sublevel-list">
+                      <li>
+                        <h3>Maintenance</h3>
+                        <ul>
+                            <li><a href="#" title="Spa">Spa</a></li>
+                            <li><a href="#" title="Storage">Storage</a></li>
+                            <li><a href="#" title="Repair">Repair</a></li>
+                            <li><a href="#" title="Collision">Collision</a></li>                    
+                        </ul> 
+                      </li>
+                      <li>
+                        <h3>Finance</h3>
+                          <ul>
+                            <li><a href="#" title="RV Loans">RV Loans</a></li>
+                            <li><a href="#" title="Credit Card">Credit Card</a></li>
+                            <li><a href="#" title="RV Plus Card">RV Plus Card</a></li>                                          
+                        </ul> 
+                      </li>
+                       <li>
+                        <h3>Protect</h3>
+                          <ul>
+                            <li><a href="#" title="Extended Service Plan">Extended Service Plan</a></li>
+                            <li><a href="#" title="Health & Life"> Health & Life</a></li>
+                            <li><a href="#" title="RV Insurance">RV Insurance</a></li>                                             
+                        </ul> 
+                      </li>
+                       <li>
+                        <h3>Travel</h3>
+                          <ul>
+                            <li><a href="#" title="Roadside Assistance">Roadside Assistance</a></li>
+                            <li><a href="#" title="Travel Assistance">Travel Assistance</a></li>                                              
+                        </ul> 
+                      </li>
+                       <li>
+                        <h3>Good Sam Club</h3>
+                          <ul>
+                            <li><a href="#" title="Your Benefits">Your Benefits</a></li>
+                            <li><a href="#" title="Fuel Discounts">Fuel Discounts</a></li>
+                            <li><a href="#" title="Camping World Coupons">Camping World Coupons</a></li> 
+                            <li><a href="#" title=" Action Line"> Action Line</a></li> 
+                            <li><a href="#" title="Smile and Save Discounts">Smile and Save Discounts</a></li> 
+                            <li><a href="#" title="Refer a Friend">Refer a Friend</a></li> 
+                            <li><a href="#" title=" Volunteer/Standby Sams"> Volunteer/Standby Sams</a></li> 
+                        </ul> 
+                      </li>
+                  </ul>
+              </div>
+            </li>
+            <li class="top-mrg dropdown">
+             <a href="#" title="RVS FOR SALE" id="main-dropdown3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RVS FOR SALE <span class="main-arrow down"></span> <span class="main-arrow up"></span></a>
+              <div class="main-subdropdown dropdown-menu main-subdropdown2" aria-labelledby="main-dropdown3">
+                  <ul class="rv-sales">
+                    <li><a href="#" title="New">New</a></li>
+                    <li><a href="#" title="Used">Used</a></li>
+                    <li><a href="#" title="Both">Both</a></li>                  
+                  </ul>              
+              </div>
+            </li>
+          </ul>
+          <div class="main-search">
+            <input type="text" data-role="none" title="Search" placeholder="Search for parks, services, products and more!" /><button title="Search">SEARCH</button>
+         <div class="auto-search" style="display:none;">
+             <div class="auto-inner">
+            <ul class="clearfix">                
+                <li class="clearfix">
+                    <h3 class="col-sm-3 col-md-3 col-lg-3">
+                        Popular Search
+                    </h3>
+                    <ul class="col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Elec<span>trick</span> Grill</a></li>
+                        <li><a href="#">Electrical Power/Batteries</a></li>
+                        <li><a href="#">Pre-Trip assistance & doctor</a></li>
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <h3 class="col-sm-3 col-md-3 col-lg-3">
+                        Campgrounds
+                    </h3>
+                    <ul class="col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Trip Planer</a></li>
+                        <li><a href="#">RV Trips of a Lifetime</a></li>                       
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <h3 class="col-sm-3 col-md-3 col-lg-3">
+                       Content
+                    </h3>
+                    <ul class="col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Kid-Friendly Trips</a></li>
+                        <li><a href="#">Electrical Power/Batteries</a></li>
+                       
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <h3 class="col-sm-3 col-md-3 col-lg-3">
+                       Productss
+                    </h3>
+                    <ul class="col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Decorator Industries</a></li>
+                        <li><a href="#">Electrick Grill</a></li>
+                        <li><a href="#">Antenna Tripod</a></li>
+                    </ul>
+                </li>
+             </ul> 
+        </div>         
+        </div>      
+          </div>
+        </div>
+      </div>
+        <div class="visible-xs  visible-sm hidden-md hidden-lg mobile-nav">
+            <a href="#menu-toggle" id="menu-toggle" class="hamburger-icon" title="Hamburger">Hamburger</a>
+
+            <a id="logo-list" href="#" class="log-dropdown logo-dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/camping-logo.png" />
+                <span class="arrow arrow-up"></span>
+                <span class="arrow arrow-down"></span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="logo-list" data-toggle="dropdown">
+                <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/logo-active-arrow.png" class="active-arrow" alt="Active" />
+            <ul>
+                <li><a href="#"> <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/camping-list-logo.png" alt="Caping World"/> </a></li>
+                <li><a href="#"> <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/goodsam-logo.png" alt="Goodsam" /> </a></li>
+                <li><a href="#"> <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/automatch-logo.png" alt="AutoMatch"> </a></li>
+            </ul>
+            </div>
+                <a role="button" data-toggle="collapse" href="#search-input" aria-expanded="false" aria-controls="collapseExample" class="mobile-main-search-icon" title="Search">Search</a>
+             <div class="collapse" id="search-input">
+                <div class="mobilesearch-panel hidden-md hidden-lg">
+                    <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/search-active.png" class="search-toparrow" alt="" />                       
+                    <input data-role="none" type="text" placeholder="Grand Canyon" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Grand Canyon'" />
+                     <div class="auto-search">
+             <div class="auto-inner">
+            <ul class="clearfix">                
+                <li class="clearfix">
+                    <h3 class="col-xs-2 col-sm-3 col-md-3 col-lg-3">
+                        Popular Search
+                    </h3>
+                    <ul class="col-xs-10 col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Elec<span>trick</span> Grill</a></li>
+                        <li><a href="#">Electrical Power/Batteries</a></li>
+                        <li><a href="#">Pre-Trip assistance & doctor</a></li>
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <h3 class="col-xs-2 col-sm-3 col-md-3 col-lg-3">
+                        Campgrounds
+                    </h3>
+                    <ul class="col-xs-10 col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Trip Planer</a></li>
+                        <li><a href="#">RV Trips of a Lifetime</a></li>                       
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <h3 class="col-xs-2 col-sm-3 col-md-3 col-lg-3">
+                       Content
+                    </h3>
+                    <ul class="col-xs-10 col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Kid-Friendly Trips</a></li>
+                        <li><a href="#">Electrical Power/Batteries</a></li>
+                       
+                    </ul>
+                </li>
+                <li class="clearfix">
+                    <h3 class="col-xs-2 col-sm-3 col-md-3 col-lg-3">
+                       Productss
+                    </h3>
+                    <ul class="col-xs-10 col-sm-9 col-md-9 col-lg-9">
+                        <li><a href="#">Decorator Industries</a></li>
+                        <li><a href="#">Electrick Grill</a></li>
+                        <li><a href="#">Antenna Tripod</a></li>
+                    </ul>
+                </li>
+             </ul> 
+        </div>         
+        </div>      
+                </div>
+            </div>
+        </div>          
+    </div>
+    <div class="container no_pad home-page">       
+        <div class="homecarousel">
+        <div class="carousel-inner">
+            <ul class="homebanner-bx">
+                 <li class="item-bg2">
+                    <img class="slider-fullimg hidden-xs hidden-sm" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/banner1.png" alt="" />
+                    <img class="slider-fullimg hidden-xs hidden-md hidden-lg" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/ipad-banner2.png" alt="" />
+                    <img class="slider-fullimg hidden-sm hidden-md hidden-lg" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/m-banner2.png" alt="" />
+                    <div class="homeslider-inner">
+                    <div class="slider-img col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/slider-2.png" alt="" />
+                    </div>
+                    <div class="home-caption col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h2>FIND THE <span>Perfect</span> GIFT</h2>
+                        <p>Shop Our Holiday Gift Guide</p>
+                        <div class="yellow-shadow">
+                            <a href="#" class="" title="SHOP NOW">SHOP NOW</a>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+                <li class="item-bg1">
+                        <img class="slider-fullimg hidden-xs hidden-sm" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/banner.png" alt="" />
+                        <img class="slider-fullimg hidden-xs hidden-md hidden-lg" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/ipad-banner1.png" alt="" />
+                        <img class="slider-fullimg hidden-sm hidden-md hidden-lg" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/m-banner1.png" alt="" />
+                   <div class="homeslider-inner">
+                    <div class="slider-img col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/img-1.png" alt="" />
+                    </div>
+                    <div class="home-caption col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                        <h2>FOR THE <span>love</span> OF THE</h2>
+                        <h3>GRILL</h3>
+                        <p>All portable Coleman grills are now on sale!</p>
+                        <div class="yellow-shadow">
+                            <a href="#" class="" title="SHOP NOW">SHOP NOW</a>
+                        </div>
+                    </div>
+                   </div>
+                </li>               
+                <li class="item-bg1">
+                    <img class="slider-fullimg hidden-xs hidden-sm" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/banner.png" alt="" />
+                    <img class="slider-fullimg hidden-xs hidden-md hidden-lg" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/ipad-banner1.png" alt="" />
+                    <img class="slider-fullimg hidden-sm hidden-md hidden-lg" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/m-banner1.png" alt="" />
+                    <div class="homeslider-inner">
+                    <div class="slider-img col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/img-1.png" alt="" />
+                    </div>
+                    <div class="home-caption col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                        <h2>FOR THE <span>love</span> OF THE</h2>
+                        <h3>GRILL</h3>
+                        <p>All portable Coleman grills are now on sale!</p>
+                        <div class="yellow-shadow">
+                            <a href="#" class="" title="SHOP NOW">SHOP NOW</a>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="banner-nav col-xs-12 col-md-12 col-lg-12 no_pad clearfix">
+            <ul id="bx-pager" class="clearfix">
+                <li><a data-slide-index="0" href="" title="GPS LOCATION & TRACKING">
+                    <img class="normal" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/gps.png" />
+                    <img class="active" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/gps1.png" />  GPS LOCATION & TRACKING</a></li>
+                <li class="grill-icon"><a data-slide-index="1" href="" title="FOR THE LOVE OF THE GRILL">
+                    <img class="normal" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/gril.png" />
+                    <img class="active" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/gril1.png" /> FOR THE LOVE OF THE GRILL</a></li>
+                <li class="promise-icon"><a data-slide-index="2" href="" title="CAMPING WORLD PROMISE">
+                    <img class="normal" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/globe.png" />
+                    <img class="active" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/globe1.png" /> CAMPING WORLD PROMISE</a></li>
+            </ul>
+        </div>
+            <img class="bottom-img" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/banner-bottom.png" alt="Slider Bar" />
+        </div>
+        <div class="L-R-Space clearfix">
+        <div class="col-xs-12 col-md-12 col-lg-12 no_pad clearfix optional-banner">
+            <img class="img-responsive"  src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/optional-banner.png" align="Optinal Banner" />
+        </div>
+    <div class="col-xs-12 col-md-12 col-lg-12 no_pad home-department-list">
+      <h2><span>SHOP DEPARTMENTS</span></h2>
+      <ul class="clearfix">
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+          <div class="depart-desp">
+            <div class="dep-img">
+             <a href="#" title="ELECTRONICS"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap.png" alt="ELECTRONICS" /></a>
+            </div>
+            <h3><a href="#" title="ELECTRONICS">ELECTRONICS</a></h3>
+          </div>
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+          <div class="depart-desp">
+            <div class="dep-img">
+              <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap2.png" alt="INDOOR LIVING" />
+            </div>
+            <h3>INDOOR LIVING</h3>
+            </div>      
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap3.png" alt="GENERATORS" />
+            </div>
+            <h3>GENERATORS</h3>
+            </div>
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap4.png" alt="OUTDOOR CHAIRS" />
+            </div>
+            <h3>OUTDOOR CHAIRS</h3>
+            </div>
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap5.png" alt="RV COVERS" />
+            </div>
+            <h3>RV COVERS</h3>
+            </div>
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap6.png" alt="TOWING & LEVELING" />
+            </div>
+            <h3>TOWING & LEVELING</h3>
+            </div>
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap7.png" alt="GRILLS & PICNIC" />
+            </div>
+            <h3>GRILLS & PICNIC</h3>
+            </div>
+        </li>
+        <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap8.png" alt="AWNING, CANOPIES & SHADE" />
+            </div>
+            <h3>AWNING, CANOPIES & SHADE</h3>
+            </div>
+        </li>
+          <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap9.png" alt="APPLICANCES, AC & HEATERS" />
+            </div>
+            <h3>APPLICANCES, AC & HEATERS</h3>
+            </div>
+        </li>
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap10.png" alt="OUTDOOR LIVING" />
+            </div>
+            <h3>OUTDOOR LIVING</h3>
+            </div>
+        </li>
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap11.png"  alt="BIKES, BIKE RACKS & CARRIERS" />
+            </div>
+            <h3>BIKES, BIKE RACKS & CARRIERS</h3>
+            </div>
+        </li>
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap12.png" alt="CAMPING & TAILGATING" />
+            </div>
+            <h3>CAMPING & TAILGATING</h3>
+            </div>
+        </li>
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap13.png" alt="HARDWARE, ROOF VENTS & FANS" />
+            </div>
+            <h3>HARDWARE, ROOF VENTS & FANS</h3>
+            </div>
+        </li>
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap14.png" alt="SEWER & FRESH WATER" />
+            </div>
+            <h3>SEWER & FRESH WATER</h3>
+            </div>
+        </li>
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="depart-desp">
+            <div class="dep-img">
+            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/products/Bitmap15.png" alt="PET, TRAINING & FEEDERS" />
+            </div>
+            <h3>PET, TRAINING & FEEDERS</h3>
+            </div>
+        </li>          
+           <li class="col-xs-6 col-sm-3 col-md-3 col-lg-3 last-product">
+            <div class="depart-desp">
+                <span>THIS IS A<br/>
+                PROMO SPOT<br/>
+                FPO</span>
+            </div>
+        </li>
+      </ul>
+      </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 looking-for-rv">
+            <h3>LOOKING FOR A NEW RV?</h3>
+            <h4>SEARCH THOUSANDS OF RVS</h4>
+            <ul class="looking-list clearfix hidden-xs hidden-sm visible-md visible-lg ">
+                <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/travel.png" alt="Travel Traile" />
+                    <h5><a href="#">Travel Trailer</a></h5>
+                </li>
+                 <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/fifth.png"  alt="Fifth Wheel" />
+                    <h5>Fifth Wheel</h5>
+                </li>
+                 <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/toy.png" alt="Toyhauler" />
+                    <h5>Toyhauler</h5>
+                </li>
+                 <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/fold.png" alt="Fold Down" />
+                    <h5>Fold Down</h5>
+                </li>
+                 <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/classa.png" alt="Class A" />
+                    <h5>Class A</h5>
+                </li>
+                 <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/classb.png" alt="Class B" />
+                    <h5>Class B</h5>
+                </li>
+                 <li>
+                   <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/classc.png" alt="Class C" />
+                    <h5>Class C</h5>
+                </li>
+            </ul>
+
+            <div id="waterwheel-carousel" class="hidden-lg hidden-md" style="text-align: center;">
+                <a href="#"><img   src="home/carousel1.png" alt="Image 1"/>
+                <div class="carousel-caption">TRAVEL TRAILER 1</div></a>
+                <a href="#"><img   src="home/carousel2.png" alt="Image 2"/>
+                <div class="carousel-caption">TRAVEL TRAILER 2</div></a>
+                <a href="#"><img  src="home/carousel3.png" alt="Image 3"/>
+                <div class="carousel-caption">TRAVEL TRAILER 3</div></a>
+                <a href="#"><img  src="home/carousel4.png" alt="Image 4"/>
+                <div class="carousel-caption">TRAVEL TRAILER 4</div></a>
+                <a href="#"><img  src="home/carousel5.png" alt="Image 5"/>
+                <div class="carousel-caption">TRAVEL TRAILER 5</div></a>
+
+            </div>
+            <div class="recommed-abobe-ads hidden-sm hidden-md hidden-lg clearfix ">
+                <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/ads.png" alt="" />
+            </div>
+     <!--   <div class="looking-for-rvform hidden-xs hidden-sm visible-md visible-lg clearfix" >
+            <div class="row">
+            <div class="col-xs-12 col-md-4 col-lg-4 checked-input">
+                  <div class="radio radio-danger">
+                    <input data-role="none"  type="radio" name="radio2" id="new" value="option1"><label for="new">New</label>
+                    <input data-role="none"  type="radio" id="used" value="option2" /> <label for="used">Used</label>
+                    <input data-role="none"  type="radio" value="option3" id="both" /> <label for="both">Both</label>
+                </div>          
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 input">
+                <div class="custom-select">
+                <select data-role="none" ><option>Any Make</option></select>
+                    <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+                </div>
+            </div>
+            
+             <div class="col-xs-12 col-md-4 col-lg-4 input">
+                 <div class="custom-select">
+                <select data-role="none" ><option>Any Price</option></select>
+                     <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+                 </div>
+            </div>
+            </div>    <div class="row"> 
+             <div class="col-xs-12 col-md-4 col-lg-4 input">
+                 <div class="custom-select">
+                <select data-role="none" ><option>Any Type</option></select>
+                 <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+             </div>
+            </div>
+             <div class="col-xs-12 col-md-4 col-lg-4 input">
+                 <div class="custom-select">
+                <select data-role="none" ><option>Any Model</option></select>
+                 <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+             </div>
+            </div>
+           
+            <div class="col-xs-12 col-md-4 col-lg-4 checked-input">
+                <div class="radio radio-danger">
+                <input data-role="none"  type="radio" id="zipcode" />  <label for="zipcode">Zipcode</label>
+                <input data-role="none"  type="radio" id="city" /> <label for="city">City</label>  
+                </div>    
+            </div>
+             </div>
+             <div class="row">
+            <div class="col-xs-12 col-md-4 col-lg-4 input half-select">
+                <div class="custom-select">
+                    <select data-role="none" ><option>Any Year</option></select>
+                    <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+                </div>
+                    <label>to</label>
+                <div class="custom-select">
+                <select data-role="none" ><option>Any Year</option></select>
+                <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 input">
+                <input data-role="none"  type="text" placeholder="Stock #" />
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 input half-distance">
+                <input data-role="none"  type="text" placeholder="Zipcode" />
+                <div class="custom-select">
+                <select data-role="none" ><option>Distance</option></select>
+                    <span class="select-arrow"><i class="fa fa-angle-down"></i></span>
+                </div>
+            </div> 
+            </div>
+            <div class="yello-bg"><button title="Search" class="yellow-link">SEARCH</button></div>
+        </div>     -->       
+         </div>
+        <div class="col-xs-12 col-md-12 col-lg-12 no_pad hidden-xs hidden-sm visible-md visible-lg rv-bottom-img clearfix">
+         <img class="bottom-img" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/banner-bottom.png" alt="Line Bar" />
+        </div> 
+      <div class="col-xs-12 hidden-xs  col-md-12 col-lg-12 no_pad donate-banner">
+            <a href="#" title="Donate"><img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/donate.png" alt="Donate" /></a>
+      </div> 
+    <div class="col-xs-12 col-md-12 col-lg-12 no_pad home-recommended">
+       <h3><span>RECOMMENDED FOR YOU</span></h3>
+        <div class="underlineCnt"></div>
+        <div class="left-mask"></div>
+        <div class="right-mask"></div>
+        <ul class="recommend-bxslider">
+           <li>
+               <div class="recommend-out">
+                   <div class="recommend-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/recommend1.png" alt="" />
+                    </div>
+                   <h4>GOOD SAM GPS 7735 LM BY RAND McNALLY</h4>
+                </div>   
+            </li> 
+            <li>
+               <div class="recommend-out">
+                   <div class="recommend-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/recommend2.png" alt="" />
+                    </div>
+                   <h4>KING QUEST AUTOMATIC SATELLITE FOR DIRECTV</h4>
+                </div>   
+            </li> 
+            <li>
+               <div class="recommend-out">
+                   <div class="recommend-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/recommend3.png" alt="" />
+                    </div>
+                   <h4>ROADTRIP GRATED GRIDDLE</h4>
+                   <div class="sale">SALE</div>
+                </div>   
+            </li> 
+            <li>
+               <div class="recommend-out">
+                   <div class="recommend-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/recommend4.png" alt="" />
+                    </div>
+                   <h4>COLEMAN ROADTRIP DUFFLE BAG</h4>
+                </div>   
+            </li>
+            <li>
+                <div class="recommend-out">
+                    <div class="recommend-img">
+                        <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/recommend1.png" alt="" />
+                    </div>
+                    <h4>GOOD SAM GPS 7735 LM BY RAND McNALLY</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no_pad catalog-request">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 earn-banner">
+                <div class="earn-banner-inner">
+                <div class="earn-lefft">
+                    <h5>EARN UP TO $50*</h5>
+                    <p>Open a Good Sam | Camping World Visa account today!</p>
+                    <span>*restrictions apply</span>
+                </div>
+                <img  class="img-responsive" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/visa.png" alt="VISA" />
+                </div>
+                <img class="brder-line" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/request-brder.png" alt="Line" />
+            </div>
+             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 catalog-banner">
+                 <div class="catalog-banner-inner">
+                    <img class="hidden-xs" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/book.png" alt="Book" />
+                     <h4>
+                        <span>REQUEST A FREE</span>
+                         CAMPING WORLD
+                     </h4>
+                     <h5>CATALOG</h5>
+                    <p>We are the world's largest<br/> supplier of RV accessories and supplies</p>
+                 </div>
+                 <img class="brder-line" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/request-brder.png" alt="Line" />
+                 </div>
+
+            </div>
+        </div>
+</div>
+      <!-- content area end -->
+      <!-- Footer section start -->
+      <div class="container-fluid footer">
+        <div class="footer-section1">
+            <div class="container L-R-Space">
+                <div class="col-xs-12 col-md-12 col-lg-12 footer-search">
+                    <div class="footer-search-left">
+                        <h6 class="hidden-md hidden-lg sign-in-text">SIGN UP FOR EMAIL DEALS!</h6>
+                        <input data-role="none"  type="text" placeholder="sign up for email deals" /> <button title="Search"> Search </button>
+                        <span class="visible-xs visible-sm hidden-md hidden-lg">Manage Email Preferences</span>
+                    </div>
+                    <div class="visible-xs visible-sm hidden-md hidden-lg request-free-catalog">
+                        <div class="free-request-bg">
+                        <a href="#" title="REQUEST A FREE CATALOG">REQUEST A FREE CATALOG</a>
+                            <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/request-shadow.png" alt="" />
+                        </div>
+                        <h6>STAY CONNECTED</h6>
+                    </div>
+
+                    <ul class="footer-sociallist clearfix">
+                        <li class="pin-icon"><a href="javascript:void(0);" title="Pinterest">Pinterest</a></li>
+                        <li class="ins-icon"><a href="javascript:void(0);" title="instagram">Instagram</a></li>
+                        <li class="twit-icon"><a href="javascript:void(0);" title="Twitter">Twitter</a></li>
+                        <li class="goog-icon"><a href="javascript:void(0);" title="Google +">Google +</a></li>
+                        <li class="you-icon"><a href="javascript:void(0);" title="Youtube">Youtube</a></li>
+                        <li class="face-icon"><a href="javascript:void(0);" title="Facebook">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-md-9 col-lg-9 no_pad hidden-xs hidden-sm visible-md visible-lg ">
+                <div class="col-sm-6 col-md-3 col-lg-3 no_pad footer-links">
+                    <h6>CUSTOMER SERVICE</h6>
+                    <ul class="clearfix">
+                        <li><a href="#"  title="Frequently Asked Questions">Frequently Asked Questions</a></li>
+                        <li><a href="#"  title="Shipping & Returns">Shipping & Returns</a></li>
+                        <li><a href="#"  title="Contact Us">Contact Us</a></li>
+                        <li><a href="#"  title="Chat Online">Chat Online</a></li>
+                        <li><a href="#"  title="Order Status">Order Status</a></li>
+                        <li><a href="#"  title="How to Order">How to Order</a></li>
+                        <li><a href="#"  title="Printable Order Form">Printable Order Form</a></li>
+                        <li><a href="#"  title="About Our Prices">About Our Prices</a></li>
+                        <li><a href="#"  title="Gift Cards">Gift Cards</a></li>
+                    </ul>                
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 no_pad footer-links">
+                    <h6>SERVICES</h6>
+                    <ul class="f-singlespace clearfix">
+                        <li><a href="#"  title="RV Sales">RV Sales</a></li>
+                        <li><a href="#"  title="Good Sam Camping World Visa">Good Sam Camping World Visa</a></li>
+                        <li><a href="#"  title="Roadside Assistance">Roadside Assistance</a></li>
+                        <li><a href="#"  title="TravelAssist">TravelAssist</a></li>
+                        <li><a href="#"  title="RV & Auto Insurance">RV & Auto Insurance</a></li>
+                        <li><a href="#"  title="Extended Warrenties">Extended Warrenties</a></li>
+                        <li><a href="#"  title="Hard to Find Parts">Hard to Find Parts</a></li>
+                        <li><a href="#"  title="Tips & Advice Center">Tips & Advice Center</a></li>
+                        <li><a href="#"  title="Camping World Vacations">Camping World Vacations</a></li>
+                         <li><a href="#"  title="Shipping Policy">Shipping Policy</a></li>
+                         <li><a href="#"  title="Return Policy">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 no_pad footer-links">
+                    <h6>ABOUT US</h6>
+                    <ul class="clearfix">
+                        <li><a href="#"  title=" Our Story"> Our Story</a></li>
+                        <li><a href="#"  title="Affiliate Program">Affiliate Program</a></li>
+                        <li><a href="#"  title="Job Opportunities">Job Opportunities</a></li>
+                        <li><a href="#"  title="Goodwill Ambassadors">Goodwill Ambassadors</a></li>
+                        <li><a href="#"  title="Become a Vendor">Become a Vendor</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 no_pad footer-links">
+                    <h6>GOOD SAM CLUB</h6>
+                    <ul class="clearfix">
+                        <li><a href="#"  title=" Member Benefits"> Member Benefits</a></li>
+                        <li><a href="#"  title="Join the Good Same Club">Join the Good Same Club</a></li>
+                        <li><a href="#"  title="Renew Your Membership">Renew Your Membership</a></li>
+                    </ul>
+                     <h6>BLOG</h6>
+                    <ul class="clearfix">
+                        <li><a href="#" title="Recent Articles">Recent Articles</a></li>
+                        <li><a href="#" title="Tips & Tricks">Tips & Tricks</a></li>
+                        <li><a href="#" title="Product Reviews">Product Reviews</a></li>
+                        <li><a href="#" title="Camping World News">Camping World News</a></li>
+                    </ul>                
+                </div> 
+                </div>                
+                <div class="col-sm-3 col-md-3 col-lg-3 no_pad footer-links footer-app hidden-xs hidden-sm visible-md visible-lg">
+                    <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/mobile-app.png" alt="Camping World" />
+                    <h6>DOWNLOAD THE<br/> CAMPING WORLD APP</h6>
+                    <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/app-store.png" alt="App Store" />
+                    <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/google-play.png" alt="Google play" />
+                </div>
+            </div>     
+        </div>
+          <div class="footer-section2 clearfix">
+              <div class="container L-R-Space">
+                <div class="copyrights-links">
+                    <p>© Good Sam Club & Camping World Inc.</p>
+                    <ul class="clearfix">
+                        <li class="hidden-md hidden-lg"><a href="#" title="Order Status">Order Status</a></li>
+                        <li class="hidden-md hidden-lg"><a href="#" title="Shipping & Returns">Shipping & Returns</a></li>
+                        <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                        <li><a href="#" title="Terms & Conditions">Terms & Conditions</a></li>
+                        <li class="hidden-md hidden-lg"><a href="#" title="Contact Us">Contact Us</a></li>
+                        <li class="hidden-xs hidden-sm"><a href="#" title="California Supply Chains Act">California Supply Chains Act</a></li>
+                    </ul>
+                </div>
+              <img src="https://images2.campingworld.com/CampingWorld/images/V2/CW/common/bizrate-certification.png" alt="Bizrate Certification" />
+            </div>      
+          </div>
+          <div class=" visible-xs  visible-sm hidden-md hidden-lg footer-fixed">
+                <ul class="footer-fiexd-list">
+                    <li class="home-icon"><a href="#" title="HOME">HOME</a></li>
+                    <li class="depart-icon"><a id="department-menu" href="#" title="DEPARTMENT" class="depart-icon-blue">DEPARTMENT</a></li>
+                    <li class="cart-icon"><a href="#" title="CART"><span>12</span> CART</a></li>
+                    <li class="stores-icon"><a href="#" title="STORES">STORES</a></li>
+                    <li class="profile-icon"><a href="#" title="ACCOUNT">ACCOUNT</a></li>
+                </ul>
+          </div>
+      </div>
+  </div>
+</div>
+      <!-- Footer section end -->
+<div class="hidden-md hidden-lg bottom-departmentmenu" id="department-menus" style="display:none">
+  <ul>
+      <li><a href="#" title="APPLIANCES, AC & HEATERS">APPLIANCES, AC & HEATERS</a></li>
+      <li><a href="#" title="AWNING, CANOPIES & SHADE">AWNING, CANOPIES & SHADE</a></li>
+      <li><a href="#" title="BIKES, BIKE RACKS & CARRIERS">BIKES, BIKE RACKS & CARRIERS</a></li>
+      <li><a href="#" title="CAMPING & TAILGATING">CAMPING & TAILGATING</a></li>
+      <li><a href="#" title="ELECTRONICS">ELECTRONICS</a></li>
+      <li><a href="#" title="GENERATORS">GENERATORS</a></li>
+      <li><a href="#" title="GENERATORS">GENERATORS</a></li>
+      <li><a href="#" title="GENERATORS">GENERATORS</a></li>
+      <li><a href="#" title="GRILLS & PICNIC">GRILLS & PICNIC</a></li>
+      <li><a href="#" title="HARDWARE, ROOF VENTS & FANS">HARDWARE, ROOF VENTS & FANS</a></li>
+      <li><a href="#" title="INDOOR LIVING">INDOOR LIVING</a></li>
+      <li><a href="#" title="OUTDOOR CHAIRS">OUTDOOR CHAIRS</a></li>
+      <li><a href="#" title="OUTDOOR LIVING">OUTDOOR LIVING</a></li>
+      <li><a href="#" title="PET, TRAINING & FEEDERS">PET, TRAINING & FEEDERS</a></li>
+      <li><a href="#" title="RV COVERS">RV COVERS</a></li>
+      <li><a href="#" title="SEWER & FRESH WATER">SEWER & FRESH WATER</a></li>
+      <li><a href="#" title="TOWING & LEVELING">TOWING & LEVELING</a></li>
+      <li><a href="#" title="APPLIANCES, AC & HEATERS">APPLIANCES, AC & HEATERS</a></li>
+      <li><a href="#" title="AWNING, CANOPIES & SHADE">AWNING, CANOPIES & SHADE</a></li>
+      <li><a href="#" title="BIKES, BIKE RACKS & CARRIERS">BIKES, BIKE RACKS & CARRIERS</a></li>
+      <li><a href="#" title="CAMPING & TAILGATING">CAMPING & TAILGATING</a></li>
+      <li><a href="#" title="ELECTRONICS">ELECTRONICS</a></li>
+      <li><a href="#" title="GENERATORS">GENERATORS</a></li>
+      <li><a href="#" title="GENERATORS">GENERATORS</a></li>
+      <li><a href="#" title="GENERATORS">GENERATORS</a></li>
+      <li><a href="#" title="GRILLS & PICNIC">GRILLS & PICNIC</a></li>
+      <li><a href="#" title="HARDWARE, ROOF VENTS & FANS">HARDWARE, ROOF VENTS & FANS</a></li>
+      <li><a href="#" title="INDOOR LIVING">INDOOR LIVING</a></li>
+      <li><a href="#" title="OUTDOOR CHAIRS">OUTDOOR CHAIRS</a></li>
+      <li><a href="#" title="OUTDOOR LIVING">OUTDOOR LIVING</a></li>
+      <li><a href="#" title="PET, TRAINING & FEEDERS">PET, TRAINING & FEEDERS</a></li>
+      <li><a href="#" title="RV COVERS">RV COVERS</a></li>
+      <li><a href="#" title="SEWER & FRESH WATER">SEWER & FRESH WATER</a></li>
+      <li><a href="#" title="TOWING & LEVELING">TOWING & LEVELING</a></li>
+  </ul>
+</div>
+<div class="live-chat" style="display:none;">
+     <div class="chat-head">
+        <ul class="close-list">
+            <li class="view-icon"><a href="#" title="Full View">Full View</a></li>
+            <li class="close-icon"><a href="#" title="Close">Close</a></li>
+         </ul>
+     </div>
+    <div class="chat-banner">
+        <img src="livechat/livechat.png" class="hidden-xs hidden-sm" title="Camping World Live Chat"  alt="Camping World Live Chat"/>
+        <img src="livechat/livechat-ipad.png" class="hidden-xs hidden-md hidden-lg" title="Camping World Live Chat"  alt="Camping World Live Chat"/>
+    </div>
+    <div class="chatting-window">
+     <div class="chat-head">
+         <ul class="email-list">
+            <li class="email-icon"><a href="#" title="Email">Email</a></li>
+            <li class="print-icon"><a href="#" title="Print">Print</a></li>
+         </ul>
+         <a href="#" title="End Chat" class="end-chat">End Chat</a>
+     </div>
+     <div class="chat-inner">
+         <p>You are now connected to Lucy from Good Sam</p>
+         <ul class="clearfix">
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 profile-pic hidden-xs">
+                  <img src="livechat/cw.png" alt="Lucy" />
+                    <h4>Lucy</h4>
+                </div>
+                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 chat-msg">
+                    <span class="left-curve"></span>
+                     <div class="msg-inner clearfix">
+                    <p>Hello, my name is Lucy. How may I help you today, John?</p>
+                    <span>10:32:21AM</span>
+                    </div>         
+                </div>
+                <div class="col-xs-1 col-sm-11 col-md-1 col-lg-1 profile-pic hidden-xs">
+                </div>
+             </li>
+             <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 chat-reply">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 profile-pic hidden-xs">
+                  
+                </div>
+                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 chat-msg">
+                    <span class="left-curve"></span>
+                    <div class="msg-inner clearfix">
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.</p>
+                    <span>10:33:12AM</span>
+                   </div>        
+                </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 profile-pic hidden-xs">
+                    <img src="livechat/noimage.png" title="No Image" alt="No Image" />
+                     <h4>You</h4>
+                </div>
+             </li>
+         </ul>
+         <div class="typing-txt">Lucy is typing…</div>
+     </div>  
+    <div class="chat-separat"></div>
+        <div class="input clearfix" data-role="none">
+            <textarea data-role="none">Type your message here…</textarea>        
+           <input data-role="none" type="submit" value="SEND" title="SEND" />
+        </div>
+    </div>    
+</div>      
+
+      
+  <script>
+      $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+      });
+  </script>
+
+  <script>
+      $(document).ready(function () {
+
+          $('#department-menu').click(function(){
+              $('#department-menus').slideToggle();
+          });
+
+          var categoriesData = {
+              "4" : [{'id' : "C","name" : "back"},{'id': '5','name': 'Air Conditioners'},{'id': '2','name': 'Dish Washing'},{'id': '7','name': 'Portable Heaters & Furnaces'},{'id': '4','name': 'Small Appliances'},{
+                  'id': '5',
+                  'name': 'Refrigerators'
+              },{
+                  'id': '11',
+                  'name': 'Washers & Dryers'
+              },{
+                  'id': '7',
+                  'name': 'Vacuums and Steam Mops'
+              }],
+              "2" : [{'id' : "C",
+                  "name" : "back"},
+                  {
+                      'id': '5',
+                      'name': 'Air Conditioners'
+                  },{
+                      'id': '2',
+                      'name': 'Dish Washing'
+                  },{
+                      'id': '7',
+                      'name': 'Portable Heaters & Furnaces'
+                  },{
+                      'id': '4',
+                      'name': 'Small Appliances'
+                  },{
+                      'id': '5',
+                      'name': 'Refrigerators'
+                  },{
+                      'id': '11',
+                      'name': 'Washers & Dryers'
+                  },{
+                      'id': '7',
+                      'name': 'Vacuums and Steam Mops'
+                  }],
+              "1" : [{'id' : "C",
+                  "name" : "back"},
+                  {
+                      'id': '5',
+                      'name': 'Air Conditioners'
+                  },{
+                      'id': '2',
+                      'name': 'Dish Washing'
+                  },{
+                      'id': '7',
+                      'name': 'Portable Heaters & Furnaces'
+                  },{
+                      'id': '4',
+                      'name': 'Small Appliances'
+                  },{
+                      'id': '5',
+                      'name': 'Refrigerators'
+                  },{
+                      'id': '11',
+                      'name': 'Washers & Dryers'
+                  },{
+                      'id': '7',
+                      'name': 'Vacuums and Steam Mops'
+                  }],
+              "5" : [{'id' : "C",
+                  "name" : "back"},
+                  {
+                      'id': '5',
+                      'name': 'Air Conditioners'
+                  },{
+                      'id': '2',
+                      'name': 'Dish Washing'
+                  },{
+                      'id': '7',
+                      'name': 'Portable Heaters & Furnaces'
+                  },{
+                      'id': '4',
+                      'name': 'Small Appliances'
+                  },{
+                      'id': '5',
+                      'name': 'Refrigerators'
+                  },{
+                      'id': '11',
+                      'name': 'Washers & Dryers'
+                  },{
+                      'id': '7',
+                      'name': 'Vacuums and Steam Mops'
+                  }],
+          }
+          var category ={"1" : [{"id" : "4","name" : "APPLIANCES, AC & HEATERS "},{"id" : "2","name" : "AWNING, CANOPIES & SHADE"},{"id" : "1","name" : "BIKES, BIKE RACKS & CARRIERS"},
+              {"id" : "5","name" : "CAMPING & TAILGATING"},{"id" : "6","name" : "CHAIRS, RECLINERS & PATIO MATS"}, {"id" : "8","name" : "COVERS & STORAGE"},
+              {"id":"9","name":"DIRECTORIES & MEMBERSHIPS"},{"id":"10","name":"ELECTRONICS, GPS & SATELLITES"},{"id":"11","name":"GENERATORS & ELECTRICAL"},
+              {"id":"12","name":"GRILLS & PICNIC"},{"id":"13","name":"HARDWARE, ROOF VENTS & FANS"},{"id":"14","name":"INDOOR LIVING"},
+              {"id":"15","name":"OUTDOOR LIVING"},{"id":"16","name":"PET, TRAINING & FEEDERS"},{"id":"17","name":"SEWER, FRESH WATER & CLEANERS"},{"id":"18","name":"TOWING, LEVELS & CHOCKS"}],
+
+              "2" : [{"id" : "4","name" : "MAINTAIN"},{"id" : "2","name" : "COLLISION"},{"id" : "1","name" : "REPAIR"},{"id" : "5","name" : "SPA"},
+                  {"id" : "6","name" : "STORAGE"} ],
+              "3" : [{"id" : "4","name" : "AIR CONDITIONERS Rv Sales"},{"id" : "2","name" : "DISH WASHING 3"},{"id" : "1","name" : "PORTABLE HEATERS & FURNACES"},{"id" : "5","name" : "SMALL APPLIANCES"},{"id" : "6","name" : "REFRIGERATORS"},{"id" : "8","name" : "WASHER & DRYERS"}]
+
+
+          };
+          var catid = 1;
+          var categories = function(id) {
+              $('#categories').empty();
+              $.each(categoriesData[id], function (i, item) {
+                  var $li = $('<li />').appendTo('#categories');
+                  if(item.name=="back") {
+                      $('<a />', {
+                          'href': "#",
+                          'data-item' : item.id+":"+id,
+                          'text': item.name,
+                          'class' : 'deptClass'
+                      }).appendTo($li);
+                  }
+                  else {
+                      $('<a />', {
+                          'href': "#",
+                          'data-item' : item.id,
+                          'text': item.name,
+                          'class' : 'deptClass'
+                      }).appendTo($li);
+                  }
+
+              });
+              $('a.deptClass').click(function(e) {
+                  console.log($(this).data('item'));
+                  data = $(this).data('item').split(":");
+                  if(data[0] != 'C') {
+                      categories($(this).data('item'));
+                  }
+                  else {
+                      categoryList(data[1]);
+                  }
+
+                  return false;
+              });
+          }
+          var categoryList = function(id) {
+              $('#categories').empty();
+              $.each(category[id], function (i, item) {
+                  var $li = $('<li />').appendTo('#categories');
+
+                  if(item.name=="back") {
+                      alert(item.id+":"+id);
+                      $('<a />', {
+                          'href': "#",
+                          'data-item' : item.id+":"+id,
+                          'text': item.name,
+                          'class' : 'deptClass'
+                      }).appendTo($li);
+                  }
+                  else {
+                      $('<a />', {
+                          'href': "#",
+                          'data-item' : item.id,
+                          'text': item.name,
+                          'class' : 'deptClass'
+                      }).appendTo($li);
+                  }
+
+              });
+              $('a.deptClass').click(function(e) {
+                  console.log($(this).data('item'));
+                  data = $(this).data('item').toString();
+                  if(data.split(":")[0] != 'C') {
+                      categories($(this).data('item'));
+                  }
+                  else {
+                      categoryList(data[data.split(":")[1]]);
+                  }
+
+                  return false;
+              });
+          }
+          categoryList(1);
+          $('.mainData').click(function(e) {
+              console.log($(this).data('item'));
+              catid = $(this).data('item');
+              categoryList($(this).data('item'));
+              return false;
+          });
+
+      });
+  </script>
+  </body>
+</html>

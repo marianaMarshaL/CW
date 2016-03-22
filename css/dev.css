@@ -1,0 +1,203 @@
+.page-main {
+	padding: 0 !important;
+}
+.account .page-main {
+	max-width: inherit !important;
+}
+.sections.nav-sections {
+	display: none;
+}
+.dashboard-widget img.logo {
+	float: none;
+	position: static;
+}
+.goog-te-banner-frame.skiptranslate {
+	display: none !important;
+}
+body {
+	top: 0px !important;
+}
+.goog-logo-link {
+	display: none !important;
+}
+.goog-te-gadget {
+	color: transparent !important;
+}
+.goog-tooltip {
+	display: none !important;
+}
+.goog-tooltip:hover {
+	display: none !important;
+}
+.goog-text-highlight {
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.messages {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	top: 58px;
+}
+.lan-select select {
+	height: 25px !important;
+	line-height: 21px !important;
+	color: #4a4a4a;
+	font-family: Gotham-Book;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 12px;
+	margin: -1px 0 0 !important;
+}
+.goog-te-gadget{
+	height:25px;
+}
+.page-layout-1column.page-with-filter .column.main{
+	padding-bottom:0!important;
+}
+button{
+   box-shadow: 0px 0px 0 0 !important;
+}
+.header .top-nav .right-nav li a{
+	color: #000;
+}
+.why-register{
+	width:100%;
+}
+.why-register ul{
+	margin-top:18px;
+	}
+.why-register ul li{
+	margin:0;
+	padding:0 0 5px 25px;
+}
+button{
+    box-shadow: 0px 0px 0 0 !important;
+}
+#success-msg{
+	   font-family: 'Gotham-Medium';
+}
+#iframe{
+	display: none;
+}
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main{
+	max-width:inherit!important;	
+}
+input.mage-error{
+	border:#ff0000 1px solid!important;
+	}
+.hakw-autodata{
+	width:100%!important;
+}	
+.hakw-autodata .hawk-sqItemImage{
+	float:left;
+	width:25%;
+}
+.hakw-autodata .hawk-sqItemContent{
+	float:left;
+	width:75%;
+}
+.hakw-autodata .hawk-sqContent li{
+	float:left;
+	width:100%;
+}
+.hakw-autodata .hawk-sqContent li h1{
+	text-align:left;
+	font-size:12px;
+}
+.hakw-autodata .hawk-sqFooter{
+	text-align:left;
+	float:left;
+	width:100%;
+	padding:5px 0;
+}
+.hakw-autodata .hawk-sqHeader{
+	text-align:left;
+	padding:8px 0 8px 20px;
+	float:left;
+	width:100%;
+}
+.yellow-shadow button.tocart{
+	width:100%!important;
+    text-transform:uppercase;	
+}
+/*hawk auto dropdown css start*/
+.hawk-searchQuery{
+	top:112px!important;
+	width:421px!important;
+	box-shadow:0 0 0 0!important;
+	border-radius:4px!important;	
+	padding:10px;
+}
+#querydiv.hawk-searchQuery{
+	border:none!important;
+}
+.hawk-searchQuery .hawk-sqHeader{
+	background:none!important;
+	font:normal 18px Gotham-Medium!important;
+	color:#4a4a4a!important;
+}
+.hawk-searchQuery .hawk-sqItem{	
+	color:#4a4a4a!important;
+	line-height:25px!important;
+	border:none!important;
+	padding:2px 0!important;
+}
+.hawk-searchQuery .hawk-sqItemName,.hawk-searchQuery .hawk-sqItem{
+	font:normal 18px Gotham-Light!important;
+	line-height:24px!important;
+}
+.hawk-searchQuery .hawk-sqItemName b{
+	font-family:Gotham-Medium!important;
+	font-weight:normal!important;
+}
+.hawk-searchQuery .hawk-sqActive{
+	border:none!important;
+}
+.hawk-searchQuery .hawk-sqItemImage{
+	display:none!important;
+}
+.hawk-searchQuery .hawk-sqItemContent{
+	margin-left:0!important;
+}
+.hawk-searchQuery .hawk-sqItemAlt{
+	background:none!important;
+}
+.hawk-searchQuery .hawk-sqContent{
+	padding:0 0 33px!important;
+}
+
+/*hawk auto dropdown css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
