@@ -14839,12 +14839,17 @@ a:focus {
 
 .tires-categories-small {
     width: 80%;
-    height: 300px;
     background-color: #ffffff;
     border: solid 0.3px #cccccc;
     text-align: center;
     margin: auto;
 }
+
+.tires-categories-small img {
+  width: 100%;
+  height: 250px;
+}
+
 .tires-name, .tires-sales-info, .tires-name-small{
   width: 100%;
   font-family: 'Gotham-Medium';
@@ -14863,9 +14868,9 @@ a:focus {
 }
 
 .tires-sales-info-small {
-     font-size: 16px;
-      text-align: left;
-    padding-left: 10px;
+  font-size: 16px;
+  text-align: left;
+  padding: 0 10px;
 }
 
 .tires-name {
@@ -14878,12 +14883,20 @@ a:focus {
     padding-left: 10px;
 }
 
+.tires .dropdown-menu {
+  width: 100%;
+}
+
 .tires-by-category .tires-by-category-container .static-left, .tires-by-category .tires-by-category-container .static-right {
   margin-top: 0px;
 }
 
 .tires-by-category .breadcrumb, .tips-details .breadcrumb {
   padding-left: 25px;
+}
+
+.tires-by-category .tires-categories .tires-category-img {
+  height: 195px;
 }
 
 .botton-img-small-container {
@@ -14960,7 +14973,7 @@ div.header-dekstop-tablet {
 }
 
 
-.nearest-store-address, .nearest-store-address-medium  {
+.nearest-store-address, .nearest-store-address-medium, .nearest-store-address-small {
   width: 100%;
   font-family: 'Gotham-Book';
   font-size: 18px;
@@ -14971,10 +14984,14 @@ div.header-dekstop-tablet {
 }
 
 .nearest-store-address-medium {
-    width: 300px;
-    height: 40%;
-    margin: auto !important;
-    padding: 40px 20px 0px 20px;
+  width: 50%;
+  margin: auto !important;
+  padding: 20px;
+}
+
+.nearest-store-address-small {
+  width: 100%;
+  padding: 20px;
 }
 
 .change-nearest-store-container {
@@ -15050,19 +15067,33 @@ div.header-dekstop-tablet {
  padding-right: 5px;
 }
 
-.tires .tires-image .tires-mobile-img{
+.tires .tires-image .tires-desktop-img, .tires .tires-image .tires-tablet-img, .tires .tires-image .tires-mobile-img{
   width: inherit;
-  height: 400px;
 }
 
-.tires .tires-image .tires-desktop-img, .tires .tires-image .tires-tablet-img{
-  width: inherit;
-  height: 566px;
+.tires .Rectangle-19 {
+  height: 80px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  background-color: rgba(250, 250, 250, 0.9);
+  border: solid 1px #cccccc;
+}
+
+
+.tires .Rectangle-19 .mask {
+  width: 80%;
+  font: normal 18px Gotham-Medium;
+  color: #666666;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /**** get coupon for service ***/
 .get-coupon-for-service .camping-world-procare-img{
-  padding: 30px 0 41px;
+  padding: 20px 0 41px;
 }
 
 .get-coupon-for-service h3{
@@ -15125,6 +15156,10 @@ div.header-dekstop-tablet {
   font-size: 14px;
   line-height: 1.3;
   color: #4a4a4a;
+}
+
+.get-coupon-for-service .contact-form .input input, .get-coupon-for-service .contact-form .input textarea{
+  width: 65%;
 }
 
 /********** start tips-detail css /**********/
@@ -15407,6 +15442,14 @@ div.header-dekstop-tablet {
     font: normal 10px Gotham-Medium;
     padding: 10px;
   }
+
+  .tires .Rectangle-19 {
+  height: 40px;
+}
+
+  .tires .Rectangle-19 .mask {
+  font-size: 12px;
+  }
   
   .get-coupon-for-service h3 {
     font-size: 20px;
@@ -15430,9 +15473,13 @@ div.header-dekstop-tablet {
     display: block;
   }
   .get-coupon-for-service .camping-world-procare-img {
-    width: 80%;
+    width: 72%;
     margin: auto;
   }
+  .get-coupon-for-service .contact-form .input input, .get-coupon-for-service .contact-form .input textarea {
+    width: 100%;
+  }
+
   /*****Start Insurance*****/
   .insurance-list-container > li > div {
     width: 90%;
