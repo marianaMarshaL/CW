@@ -14845,19 +14845,12 @@ a:focus {
     text-align: center;
     margin: auto;
 }
-.tires-name, .tires-sales-info, .tires-title-category, .tires-name-small{
+.tires-name, .tires-sales-info, .tires-name-small{
   width: 100%;
   font-family: 'Gotham-Medium';
   line-height: 1.1;
   color: #666666;
  }
-
-.tires-title-category {
-  font-size: 14px;
-  color: #509cba;
-  padding-left: 20px;
-  margin-bottom: 0px;
-}
 
 .tires-categories {
   padding: 30px;
@@ -14887,6 +14880,10 @@ a:focus {
 
 .tires-by-category .tires-by-category-container .static-left, .tires-by-category .tires-by-category-container .static-right {
   margin-top: 0px;
+}
+
+.tires-by-category .breadcrumb, .tips-details .breadcrumb {
+  padding-left: 25px;
 }
 
 .botton-img-small-container {
@@ -15395,7 +15392,7 @@ div.header-dekstop-tablet {
    }
    .tires .tires-type-dropdown{
       width: 100%;
-      padding: 15px 7.5px;
+      padding: 5px 7.5px 15px;
    }
 
   .tires .tires-type-dropdown .caret{
@@ -15501,8 +15498,9 @@ div.header-dekstop-tablet {
   }
 }
 @media (max-width: 991px) {
-  .tires-title-category {
-    padding-left: 15px;
+  .tires-by-category .breadcrumb, .tips-details .breadcrumb {
+    padding-left: 10px;
+    margin-top: 0px;
   }
 }
 /********** end new css /**********/
