@@ -15038,7 +15038,7 @@ a:focus {
   box-shadow: none;
 }
 
-.tires .tires-image img {
+.tires .tires-image {
   width: 100%;
 }
 
@@ -15055,6 +15055,16 @@ a:focus {
 .tires .tires-accessories .tires-accessories-column{
  padding-left: 5px;
  padding-right: 5px;
+}
+
+.tires .tires-image .tires-mobile-img{
+  width: inherit;
+  height: 400px;
+}
+
+.tires .tires-image .tires-desktop-img, .tires .tires-image .tires-tablet-img{
+  width: inherit;
+  height: 566px;
 }
 
 /**** get coupon for service ***/
