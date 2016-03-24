@@ -14995,12 +14995,17 @@ div.header-dekstop-tablet {
 }
 
 .change-nearest-store-container {
-  width: 230px;
-  height: 55px;
+  width: 85%;
+  height: 50px;
   border-radius: 4px;
   background-color: #ffd50c;
     margin:auto;
     float: none;
+        margin-top: 20px;
+}
+
+.change-nearest-store-container > bottom-img {
+    width: 90%;
 }
 
 .change-store-label{
