@@ -15318,6 +15318,8 @@ div.header-dekstop-tablet {
   color: #8f8f8f;
   padding-right: 3px;
   display: inline-block;
+  line-height: 0;
+  vertical-align: super;
 }
 
 .insurance-list-contain {
