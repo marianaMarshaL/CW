@@ -14835,14 +14835,8 @@ a:focus {
 }
 
 
-.tires-category-img {
-    width: 30%;
-  float: left;
-}
-
 .tires-category-detail {
-    width: 70% !important;
-    height: 100%;
+  padding-left: 0px;
 }
 
 .tires-category-img-mobile {
@@ -14858,7 +14852,7 @@ a:focus {
 }
 
 .tires-categories-small img {
-  width: 100%;
+  width: auto;
   height: 250px;
 }
 
@@ -14880,9 +14874,10 @@ a:focus {
 }
 
 .tires-sales-info-small {
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
   padding: 0 10px;
+  line-height: 1.8;
 }
 
 .tires-name {
@@ -14940,17 +14935,15 @@ a:focus {
   color: #666666;
 }
 .nearest-store-locator, .nearest-store-locator-small {
-    width: 100%;
-  height: 250px;
+  width: 100%;
   background-color: #ffffff;
   border: solid 1px #cccccc;
   max-width: 100%;
-    text-align:center;
+  text-align:center;
 }
 
 .nearest-store-locator-small {
     width: 87%;
-    height: 250px;
     margin: auto;
 }
 .tires-availbilty-model {
@@ -14990,35 +14983,46 @@ div.header-dekstop-tablet {
 }
 
 
-.nearest-store-address, .nearest-store-address-medium, .nearest-store-address-small {
+.nearest-store-address, .nearest-store-address-medium, .nearest-store-address-small, .nearest-store-phone {
   width: 100%;
-  font-family: 'Gotham-Book';
+  font-family:'Gotham-Book';
   font-size: 18px;
-  line-height: 1.0;
   color: #666666;
-margin: auto !important;
+  margin: auto !important;
   align-content: center;
+}
+
+.nearest-store-phone {
+  font-family:'Gotham-Bold';
+}
+
+.nearest-store-address, .nearest-store-address-medium, .nearest-store-address-small {
   padding: 40px 12px 0px 12px;
 }
 
 .nearest-store-address-medium {
-  width: 27%;
+  width: 46%;
   padding: 20px;
 }
 
 .nearest-store-address-small {
-    width: 80%;
+    width: 74%;
     padding: 20px;
+    font-size: 14px;
 }
+
+.nearest-store-address-small,.nearest-store-address-small .nearest-store-phone {
+    font-size: 16px;
+}
+
 
 .change-nearest-store-container, .change-nearest-store-container-medium {
   width: 85%;
   height: 50px;
   border-radius: 4px;
   background-color: #ffd50c;
-  margin:auto;
   float: none;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .change-nearest-store-container-medium {
