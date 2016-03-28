@@ -15320,7 +15320,7 @@ div.header-dekstop-tablet {
 
 .insurance h5 {
   font-size: 16px;
-  line-height: 1.0;
+  line-height: 22px;
   color: #535353;
 }
 
@@ -15353,7 +15353,6 @@ div.header-dekstop-tablet {
   padding-right: 3px;
   display: inline-block;
   line-height: 0;
-  vertical-align: super;
 }
 
 .insurance-list-contain {
@@ -15366,10 +15365,10 @@ div.header-dekstop-tablet {
 
 .insurance-list-container > li > div {
   display: inline-block;
-  width: 90%;
+  width: 94%;
   vertical-align: top;
   font-family: Gotham-Book;
-  line-height: 1.0;
+  line-height: 24px;
   font-size: 16px;
   color: #535353;
 }
@@ -15383,7 +15382,7 @@ div.header-dekstop-tablet {
 } 
 
 .insurance .info-container .insurance-submit-button {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .insurance p {
@@ -15527,7 +15526,7 @@ div.header-dekstop-tablet {
   .insurance-list-container > li > div {
     width: 90%;
     vertical-align: top;
-    font: normal 18px Gotham-Book;
+    font: normal 16px Gotham-Book;
     color: #535353;
     line-height: 20px;
     margin: 0 0 10px;
