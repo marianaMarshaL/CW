@@ -14833,8 +14833,18 @@ a:focus {
   border: solid 1px #cccccc;
   background: #fff;
 }
+
+.tires-categories {
+    height: 290px;
+}
+
 .tires-category-img {
   float: left;
+}
+
+.tires-category-detail {
+    width: 70% !important;
+    height: 100%;
 }
 
 .tires-category-img-mobile {
@@ -15210,7 +15220,6 @@ div.header-dekstop-tablet {
 
 .tips-detail-title{
     font-size: 20px !important;
-    margin: 30px 0 5px !important;
 }
 
 .tips-detail-text, .tips-detail-numbering {
