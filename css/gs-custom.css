@@ -15332,12 +15332,12 @@ margin: auto !important;
   margin-top: 0;
 }
 
-.insurance-item-description > div {
+.insurance-item-description > div.insurance-image-contain {
   padding-left: 0;
 }
 
 .insurance .info-container {
-  padding: 30px;
+  padding: 30px 20px;
   border: solid 1px #cccccc;
   background: #fff;
 }
@@ -15375,10 +15375,6 @@ margin: auto !important;
   color: #535353;
 }
 
-.insurance-item-description img {
-  width: 100%;
-}
-
 .insurance .bottom-img  {
   margin-bottom: 10px;
 } 
@@ -15398,6 +15394,16 @@ margin: auto !important;
     display: inline-block;
     line-height: 0;
   }
+
+.insurance-image-contain {
+  width: 16%;
+  float: left;
+}
+.insurance-description-contain{
+  width: 84%;
+  float: left;
+  padding-left: 10px;
+}
 
 /****End Insurance****/
 
@@ -15564,6 +15570,21 @@ margin: auto !important;
 
   .insurance .breadcrumb li a, .insurance .breadcrumb li{
     font: normal 11px Gotham-Medium;
+  }
+
+
+  .insurance-item-description img {
+    width: 100%;
+  }
+
+  .insurance-image-contain {
+    width: 100%;
+    float: initial;
+  }
+  .insurance-description-contain{
+    width: 100%;
+    float: initial;
+    padding-left: 0px;
   }
 
   /****End Insurance****/
