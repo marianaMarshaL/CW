@@ -15264,7 +15264,7 @@ margin: auto !important;
 
 .tips-advice-list-container>li {
     color: #4f9cba;
-    padding-left: 20px;
+    padding-left: 12px;
     padding-top: 10px;
 }
 
@@ -15274,7 +15274,18 @@ margin: auto !important;
 
 .tips-advice-list-container>li>i {
     margin-right: 3px;
+    width: 20px;
 }
+
+.tips-selected {
+    width: 0px !important;
+    color: #1d4567 !important;
+}
+
+.tips-advice-list-container>li>a {
+   padding-left: 8px!important;
+}
+    
 
 .tips-advice-container {
     background-color: #ffffff;

@@ -334,25 +334,25 @@
                         <div class="locator-ads">
                             <div class="tips-advice-container">
                                 <div class="tips-advice-title-header"><h4 class="tips-advice-title">TIPS & ADVICE TOPICS</h4></div>
-                                <ul class="tips-advice-list-container">
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>Buying a New RV</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>Cleaning & Protecting Your RV</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>Cooking in Your RV</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>Financing Your RV</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>General RV Maintenance</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>Replacing an RV Appliance</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Accessories</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Bed and Bath</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Electrical Systems</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Freshwater Systems</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Furniture</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Makeovers</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Sanitation</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Tire Care</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Towing</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RV Winterizing & Storage</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>RVs and Pets</a></li>
-                                    <li><i class="fa fa-caret-right fa-lg"></i><a>Satellite TV in Your RV</a></li>
+                                <ul class="tips-advice-list-container" id="tips-advice-list">
+                                    <li><i></i><a>Buying a New RV</a></li>
+                                    <li><i></i><a>Cleaning & Protecting Your RV</a></li>
+                                    <li><i></i><a>Cooking in Your RV</a></li>
+                                    <li><i></i><a>Financing Your RV</a></li>
+                                    <li><i></i><a>General RV Maintenance</a></li>
+                                    <li><i></i><a>Replacing an RV Appliance</a></li>
+                                    <li><i></i><a>RV Accessories</a></li>
+                                    <li><i></i><a>RV Bed and Bath</a></li>
+                                    <li><i></i><a>RV Electrical Systems</a></li>
+                                    <li><i></i><a>RV Freshwater Systems</a></li>
+                                    <li><i></i><a>RV Furniture</a></li>
+                                    <li><i></i><a>RV Makeovers</a></li>
+                                    <li><i></i><a>RV Sanitation</a></li>
+                                    <li><i></i><a>RV Tire Care</a></li>
+                                    <li><i></i><a>RV Towing</a></li>
+                                    <li><i></i><a>RV Winterizing & Storage</a></li>
+                                    <li><i></i><a>RVs and Pets</a></li>
+                                    <li><i></i><a>Satellite TV in Your RV</a></li>
                                 </ul>
                             </div>
                             <img class="bottom-img" src="https://images2.campingworld.com/CampingWorld/images/V2/CW/home/banner-bottom.png" alt="Slider Bar">
@@ -488,4 +488,14 @@
     </div>
     <!-- Footer section end -->
 </body>
+<script>  
+  $(document).ready(function(){
+    $('#tips-advice-list li').click(function(i) {
+    $('#tips-advice-list li').children().removeClass('fa fa-caret-right fa-lg tips-selected');
+    $(this).children('i').addClass('fa fa-caret-right fa-lg tips-selected');
+    $(this).children('a').addClass('tips-selected');   
+    });
+})
+
+</script>
 </html>
