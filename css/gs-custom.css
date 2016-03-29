@@ -15131,6 +15131,14 @@ div.header-dekstop-tablet {
   transform: translate(-50%, -50%);
 }
 
+.tires-toggle {
+  float: none;
+  margin: auto;
+  width: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /**** get coupon for service ***/
 .get-coupon-for-service .camping-world-procare-img{
   padding: 20px 0 41px;
@@ -15455,11 +15463,12 @@ div.header-dekstop-tablet {
       padding: 0px; 
     }
 
-    .tires .static-left .tips-ads ul, .tires .static-left .tips-ads .tips-readmore, .tires .info-container div {
+    .tires .static-left .tips-ads .tips-readmore {
       padding: 0 7.5px;
     }
-    .tires .static-inner{
-      padding: 0;
+  
+    .tires .static-inner, .tires .static-left .tips-ads ul{
+      padding: 0px;
     }
     .tires .static-left .tips-ads .tips-advice, .tires .exceptions-tires-subheader, .tires .subheader {
       background: #fff;
@@ -15490,7 +15499,8 @@ div.header-dekstop-tablet {
    }
    .tires .tires-type-dropdown{
       width: 100%;
-      padding: 5px 7.5px 15px;
+      padding-bottom: 15px;
+     padding-right: 15px;
    }
 
   .tires .tires-type-dropdown .caret{
@@ -15511,6 +15521,14 @@ div.header-dekstop-tablet {
 
   .tires .Rectangle-19 .mask {
   font-size: 12px;
+  }
+  
+  .tires-toggle, .tires-pad-contain {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+  .tires-toggle {
+    padding-bottom: 15px !important;
   }
   
   .get-coupon-for-service h3 {
