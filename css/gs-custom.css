@@ -15430,7 +15430,7 @@ div.header-dekstop-tablet {
 
 /****End Insurance****/
 
-/***Elements start***/
+/********* Start Element *********/
 .element-item-out {
   min-height: 300px;
   border: #ccc 1px solid;
@@ -15522,7 +15522,183 @@ div.header-dekstop-tablet {
   margin-top: 8%;
   padding: 15px;
 }
-/***Elements end***/
+
+.table-rv-cover-feature {
+  margin-bottom: 0px;
+}
+
+.table-rv-cover-feature>tbody>tr>td, .table-rv-cover-feature>tbody>tr>th, .table-rv-cover-feature>tfoot>tr>td, .table-rv-cover-feature>tfoot>tr>th, .table-rv-cover-feature>thead>tr>td, .table-rv-cover-feature>thead>tr>th {
+  border : none;
+  font-family: Agenda-Regular;
+  font-size: 18px;
+  line-height:18px;
+  color: #676767;
+}
+
+.table-rv-cover-feature>thead>tr>th {
+  font-family: Arial-BoldMT;
+  font-size: 24px;
+  line-height: 1.0;
+  color: #ffffff;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.table-rv-cover-feature>thead>tr>th:not(:first-child) {
+  font-size: 20px;
+}
+
+.table-rv-cover-feature>thead>tr>th:first-child, .table-rv-cover-feature>thead>tr>th:last-child{
+  background-color: #255d77;
+}
+
+.table-rv-cover-feature>thead>tr>th:nth-child(2) {
+  background-color: #009fc4;
+  text-align: center
+}
+.table-rv-cover-feature>thead>tr>th:nth-child(3) {
+  background-color: #ad0032;
+  text-align: center;
+}
+
+.table-rv-cover-feature>thead>tr>th:last-child {
+  text-align: center;
+}
+
+.table-rv-cover-feature .yellow-text,.rv-cover-legend .yellow-text{
+  color:#ffd50c;
+}
+
+.rv-cover-legend{
+  padding: 10px 25px;
+}
+
+.rv-cover-legend .blue-legend, .rv-cover-legend .red-legend, .rv-cover-legend .dark-blue-legend{
+  width: 15px;
+  height: 15px;
+  background-color: #009fc4;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rv-cover-legend .red-legend{
+  background-color:#ad0032;
+}
+
+.rv-cover-legend .dark-blue-legend{
+  background-color:#255d77;
+}
+
+.rv-cover-legend .table-header-info{
+  display: inline-block;
+}
+
+.rv-cover-legend div {
+  font-family : Gotham-Medium;
+  font-size : 12px;
+  line-height : 1.2;
+  color : #696969;
+}
+
+.table-rv-cover-feature>tbody>tr>td:first-child {
+  padding: 25px 8px;
+}
+
+.table-rv-cover-feature>tbody>tr>td:not(:first-child){
+ text-align: center;
+ vertical-align: middle;
+}
+
+.table-rv-cover-feature>tbody>tr>td.gutter-gard-protector-val{
+  font-family: Arial-BoldMT;
+  font-size: 20px;
+  color: #676767;
+}
+
+.table-rv-cover-feature>tbody>tr:nth-of-type(even) {
+ background-color: #eaeaea; 
+}
+
+.table-rv-cover-feature-footer{
+  height: 14px;
+  background-color: #255d77;
+}
+
+.header-rv-protection-info {
+  margin-top: 30px;
+}
+
+.header-rv-protection-info {
+  font-family: Agenda-Bold;
+  font-size: 24px;
+  line-height:33px;
+  color: #ffffff;
+  background-color: #255d77;
+}
+
+.header-rv-protection-info > div:first-child{
+  width: 60%;
+  padding-left: 8px;
+  display: inline-block;
+}
+
+.header-rv-protection-info > div:last-child{
+  width: 35%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header-rv-protection-info .yellow-text{
+  color: #ffd287;
+  font-size: 20px;
+}
+
+.rv-protection-info .with-protection{
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.rv-protection-info .without-protection{
+  padding-left: 0;
+  padding-right: 10px;
+}
+.rv-protection-info .header-protection-title{
+  font-family: Agenda-Medium;
+  font-size: 22px;
+  color: #565656;
+  background-color: #ecebeb;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.without-protection-container, .with-protection-container{
+  background-color: #ffffff; 
+  border: solid 1px #cccccc;
+  padding: 50px 20px 30px;
+  height: 750px;
+}
+
+.with-protection-image, .without-protection-image{
+  width: 50%;
+  margin: auto;
+  height: 312px;
+}
+.with-protection-image img{
+  height: 312px;
+}
+
+.rv-protection-list{
+  padding:20px 0px 0 20px;
+}
+
+.rv-protection-list li{
+  font-family: Agenda-Medium;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #000000;
+}
+
+/********* End Element **********/
 
 /*** media for device *****/
 
@@ -15714,11 +15890,58 @@ div.header-dekstop-tablet {
     padding-left: 0px;
   }
 
-  /****End Insurance****/
-  
+  /******* Start Elements ********/
   .element-pad-top div {
     padding-top: 15px;
+    padding-right: 0px;
   }
+
+  .elements .rv-cover-feature-panel .col-xs-12{
+     padding: 0px;
+  }
+
+  .elements .rv-cover-feature-panel .table-rv-cover-feature>thead>tr>th:first-child, .elements .rv-cover-feature-panel .table-rv-cover-feature>tbody>tr>td:first-child{
+    padding-left: 20px;
+  }
+
+  .table-rv-cover-feature>tbody>tr>td, .table-rv-cover-feature>tbody>tr>th, .table-rv-cover-feature>tfoot>tr>td, .table-rv-cover-feature>tfoot>tr>th, .table-rv-cover-feature>thead>tr>td, .table-rv-cover-feature>thead>tr>th {
+    font-size: 12px;
+  }
+
+  .table-rv-cover-feature>thead>tr>th {
+    font-size: 14px;
+    font-family: Gotham-Medium;
+    
+  }
+  .table-rv-cover-feature>tbody>tr>td.gutter-gard-protector-val{
+    font-family:  Gotham-Medium;
+    font-size: 12px;
+    color: #676767;
+  }
+  .table-rv-cover-feature-footer{
+    height: 6px;
+  }
+  .rv-protection-info .without-protection{
+    padding-right: 0;
+  }
+
+  .rv-protection-info .with-protection{
+    padding-left: 0;
+  }
+    .header-rv-protection-info,.rv-protection-info .header-protection-title {
+    font-size: 16px;
+  }
+  .header-rv-protection-info .yellow-text{
+    font-size: 14px;
+  }
+  .rv-protection-list li {
+    font-size: 14px;
+  }
+  .with-protection-image, .without-protection-image,.without-protection-container, .with-protection-container{
+    height: auto;
+    width: auto;
+  }
+  /******* End Elements ********/
 }
 @media (min-width: 768px)and (max-width: 991px) {
   .insurance .static-left {
@@ -15740,7 +15963,106 @@ div.header-dekstop-tablet {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+/******** elements *********/
+  .table-rv-cover-feature>tbody>tr>td, .table-rv-cover-feature>tbody>tr>th, .table-rv-cover-feature>tfoot>tr>td, .table-rv-cover-feature>tfoot>tr>th, .table-rv-cover-feature>thead>tr>td, .table-rv-cover-feature>thead>tr>th {
+    font-size: 12px;
+  }
+
+  .table-rv-cover-feature>thead>tr>th:first-child {
+    font-family: Arial-BoldMT;
+    font-size: 14px;
+  }
+  .table-rv-cover-feature>thead>tr>th:not(:first-child) {
+    font-family: Agenda-Semibold;
+    font-size: 14px;
+  }
+  .table-rv-cover-feature>tbody>tr>td.gutter-gard-protector-val{
+    font-family:  Gotham-Medium;
+    font-size: 12px;
+    color: #676767;
+  }
+  .table-rv-cover-feature-footer{
+    height: 8px;
+  }
+    .without-protection-image{
+    width: 28%;
+  }
+  .with-protection-image{
+    width: 37%;
+  }
+
+  .rv-protection-info .without-protection{
+    padding-right: 0;
+  }
+
+  .rv-protection-info .with-protection{
+    padding-left: 0;
+  }
+    .header-rv-protection-info,.rv-protection-info .header-protection-title {
+    font-size: 16px;
+  }
+  .header-rv-protection-info .yellow-text{
+    font-size: 14px;
+  }
+  .rv-protection-list li {
+    font-size: 14px;
+  }
+  .with-protection-image, .without-protection-image,.without-protection-container, .with-protection-container{
+    height: auto;
+  }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { 
+  /******** elements *********/
+  .table-rv-cover-feature>tbody>tr>td, .table-rv-cover-feature>tbody>tr>th, .table-rv-cover-feature>tfoot>tr>td, .table-rv-cover-feature>tfoot>tr>th, .table-rv-cover-feature>thead>tr>td, .table-rv-cover-feature>thead>tr>th {
+    font-size: 12px;
+  }
+  .table-rv-cover-feature>thead>tr>th:first-child {
+    font-family: Arial-BoldMT;
+    font-size: 14px;
+  }
+  .table-rv-cover-feature>thead>tr>th:not(:first-child) {
+    font-family: Agenda-Semibold;
+    font-size: 12px;
+  }
+ .table-rv-cover-feature>tbody>tr>td.gutter-gard-protector-val{
+    font-family:  Gotham-Medium;
+    font-size: 12px;
+    color: #676767;
+  }
+  .table-rv-cover-feature-footer{
+    height: 8px;
+  }
+
+  .without-protection-image{
+    width: 28%;
+  }
+  .with-protection-image{
+    width: 37%;
+  }
+  .rv-protection-info .without-protection{
+    padding-right: 0;
+  }
+
+  .rv-protection-info .with-protection{
+    padding-left: 0;
+  }
+
+  .header-rv-protection-info,.rv-protection-info .header-protection-title {
+    font-size: 16px;
+  }
+  .header-rv-protection-info .yellow-text{
+    font-size: 14px;
+  }
+  .rv-protection-list li {
+    font-size: 14px;
+  }
+  .with-protection-image, .without-protection-image,.without-protection-container, .with-protection-container{
+    height: auto;
+  }
+}
+
 @media (max-width: 991px) {
   .tires-by-category .breadcrumb, .tips-details .breadcrumb {
     padding-left: 10px;
