@@ -15811,6 +15811,7 @@ div.header-dekstop-tablet {
 .element-rewards {
   position: relative;
   text-align: center;
+  margin: 30px 0 15px; 
 }
 
 .element-find-extra-bonus .image-car{
@@ -16085,13 +16086,17 @@ div.header-dekstop-tablet {
     width: auto;
   }
   .new.element-all-climate-title:before {
-    height: 166px;
-    width: 126px;
+    height: 119px;
+    width: 76px;
   }
 
   .new.element-all-climate-title:after {
-    top: 28px;
-    left: 13px;
+    top: 38px;
+    left: 2px;
+  }
+
+  .new.element-all-climate-title:after {
+    transform: rotate(-50deg);
   }
 
   .title-of-carousel{
@@ -16115,7 +16120,40 @@ div.header-dekstop-tablet {
   .no-pad-right{
     padding: 0 20px;
   }
+  .element-all-climate-title-text{
+    font-size: 18px;
+  }
 
+  .element-all-climate-container{
+    height: auto;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .header-rv-protection-info > div:first-child,.header-rv-protection-info > div:last-child{
+    width: 100%;
+    text-align: center;
+  }
+
+  .image-background-container .image-car{
+    width: 10%;
+    height: 20%;
+    padding-top: 10px;
+  }
+  .get-on-the-road-text{
+    font-size: 14px;
+  }
+
+  .header-rv-protection-info > div:first-child{
+    line-height: 1.1;
+  }
+
+  .elements .panel-collapse{
+    background: #fafafa !important;
+  }
+  .element-all-climate-description{
+    font-size: 14px;
+  }
   /******* End Elements ********/
 }
 @media (min-width: 768px)and (max-width: 991px) {
@@ -16128,7 +16166,7 @@ div.header-dekstop-tablet {
     padding-right: 15px;
   }
   
-  .element-pad-top, .element-pad-top div {
+  .element-pad-top div {
     padding-top: 15px;
   }
 }
@@ -16186,6 +16224,13 @@ div.header-dekstop-tablet {
   .with-protection-image, .without-protection-image,.without-protection-container, .with-protection-container{
     height: auto;
   }
+  .rv-protection-list,.finding-the-right-size p {
+    width: 80%;
+    margin: auto;
+  }
+  .finding-the-right-size p {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { 
@@ -16240,6 +16285,14 @@ div.header-dekstop-tablet {
     text-align: center;
     padding: 30px 0 50px;
     margin:58px 0 0;
+  }
+
+  .rv-protection-list,.finding-the-right-size p {
+    width: 80%;
+    margin: auto;
+  }
+  .finding-the-right-size p {
+    text-align: center;
   }
 }
 
