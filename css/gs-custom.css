@@ -15521,7 +15521,7 @@ div.header-dekstop-tablet {
 .new.element-all-climate-title:before {
   content: "";
   width: 98px;
-  height: 127px;
+  height: 130px;
   background: url("../images/Group%2034.png") left top;
   background-size: 100% 100%;
   position: absolute;
@@ -16017,6 +16017,15 @@ div.header-dekstop-tablet {
   .with-protection-image, .without-protection-image,.without-protection-container, .with-protection-container{
     height: auto;
     width: auto;
+  }
+  .new.element-all-climate-title:before {
+    height: 166px;
+    width: 126px;
+  }
+
+  .new.element-all-climate-title:after {
+    top: 28px;
+    left: 13px;
   }
   /******* End Elements ********/
 }
