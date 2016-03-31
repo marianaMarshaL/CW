@@ -1480,3 +1480,5 @@ button.search:focus {
 
 .shadow-search{ background:url(images/btn-shadow.png) no-repeat bottom center; padding-bottom:7px; width:45%; margin:0 auto; background-size:100%; }
 
+.cw .static-left {margin-top: 0px;}
+.cw .contact-form .input {margin-bottom: 0px;}
