@@ -15842,6 +15842,8 @@ div.header-dekstop-tablet {
 .elements .yellow-shadow span {
   margin-right: 15px;
 }
+
+
 /********* End Element **********/
 
 /*** media for device *****/
@@ -16157,6 +16159,15 @@ div.header-dekstop-tablet {
   }
   .element-all-climate-description{
     font-size: 14px;
+  }
+
+  .elements .account-mgt .panel {
+    border:none;
+    border-radius: 0;
+  }
+
+  .elements .account-mgt .mobile-secondlevel-acc .panel-heading {
+    border-radius: 0px;
   }
   /******* End Elements ********/
 }
