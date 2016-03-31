@@ -1,0 +1,125 @@
+/*Styles for Campground Search Starts*/
+
+.content_search {
+    margin-top: 180px;
+}
+
+.breadcrumbs {
+    padding: 20px 0px;
+    font-family: 'Gotham-Medium';
+    font-size: 14px;
+    a {color:#509cba; font-family: 'Gotham-Medium' !important;}
+}
+
+.search-rightpanel {
+    margin-top: 60px;
+}
+
+.hawkRailNav {
+    background: none !important;
+    border:none !important;
+    position: relative;
+}
+
+.hawk-railNavHeading, .hawk-recentSearches, .hawk-sortWrapper, .hawk-viewNumber, .total {display: none !important;}
+
+.hawk-selectedNav {
+    background: none !important;
+    border: none !important;
+}
+
+.hawk-navGroupContent { padding: 0px !important;}
+
+.hawk-selectedNav h4.hawk-groupHeading { font-family: 'Gotham-Medium'; font-size: 24px !important; font-weight: normal !important; color: #666;}
+
+.hawk-selectedNav .hawk-clearSelected { position: absolute; top: 9px; right: 0px; font-family: 'Gotham-Medium'; font-size: 12px !important; color: #666;  }
+
+.hawk-guidedNavWrapper .hawk-clearSelected a, .hawk-guidedNavWrapper .hawk-clearSelected a:link, .hawk-guidedNavWrapper .hawk-clearSelected a:visited {font-size: 12px !important;}
+
+.hawk-selectedHeading {
+    border:none;
+    display: none;
+}
+
+.hawk-selectedGroup, .hawk-selectedGroup ul {
+  background: none !important;
+  border: none !important;
+}
+
+.hawk-selectedGroup {border-bottom: none; !important}
+
+.hawk-selectedGroup ul {padding: 0px !important; margin: 0px !important;}
+
+.hawk-selectedGroup ul li { border: 1px solid #ccc; line-height: 40px; padding: 0px 15px; background: #fff; }
+
+.hawk-selectedGroup ul li a { font-family: 'Gotham-Book'; font-size: 16px !important; background:url(https://images3.campingworld.com/CampingWorld/images/V2/GS/cam-search/close-icons.jpg) no-repeat right; display: block !important; color: #666666 !important; }
+
+.hawkIcon-close {display: none;}
+
+.hawk-resultsSearch label {display: none !important;}
+
+.hawk-navGroup {border: none !important;}
+
+.hawk-collapsed {border: 1px solid #ccc !important; padding: 15px 0px !important; font-family: 'Gotham-Medium' !important; font-weight: normal !important; background: #ffffff !important; font-size: 16px; }
+
+.hawk-collapsed .hawk-facet-tooltip { display: none; }
+
+.hawk-guidedNavWrapper .hawk-navGroup .hawk-resultsSearch .hawk-searchWithinButton {background-color: #ffc60a !important; top: 0 !important; right: 0px !important; bottom: 0 !important; width: 46px; text-align: center; font-size: 21px !important; color: #ffffff !important; padding-top: 6px !important; border-radius: 0px 4px 4px 0px !important;}
+
+.hawkRailNav .hawk-guidedNavWrapper .hawk-navGroup .hawk-resultsSearch input[type="text"] {border-radius: 4px !important; height: 40px !important;}
+
+.hawk-searchWithin { margin-bottom: 20px !important; }
+
+.hawk-navGroup .hawk-groupHeading {font-family: 'Gotham-Medium'; font-size: 16px !important; color: #666666 !important; font-weight: normal !important;}
+
+.hawk-styleCheckbox {
+    font-family: 'Gotham-Book' !important;
+    font-size: 16px !important;
+    color: #666 !important;
+    padding: 5px 0px 15px 0px;
+}
+
+.hawk-guidedNavWrapper .hawk-navGroup li .hawk-styleCheckbox:before {
+    width: 20px !important; height: 20px !important; top: 7px !important; line-height: 16px !important; padding-left: 2px;
+}
+
+.hawk-guidedNavWrapper .hawk-navGroup li.hawkFacet-indetermined > .hawk-styleCheckbox:after {
+    left: 5px !important; top: 12px !important; width: 10px !important; height: 10px !important;
+}
+
+.hawk-selectionInner { padding-left: 10px; display: inline-block;}
+
+.hawk-rating {margin-top: 4px;}
+
+.hawk-mainControls {
+    background: none !important;
+    text-align: center;
+}
+
+.hawk-paging {float: none !important;}
+
+.hawk-pagination {float: none !important; text-align: center;}
+
+.hawk-listingControls {
+    border: none !important;
+    background: none !important;
+    margin: 20px 0px !important;
+}
+
+.hawk-pageLink {background: none !important; width: 26px; line-height: 26px; text-align: center; font-size: 16px; color: #4a4a4a;}
+
+.hawk-pageActive {background: #1d4567 !important; color: #ffffff !important; width: 26px; line-height: 26px; font-size: 16px; text-align: center;}
+
+.hawk-arrowRight, .hawk-arrowLeft { color: #4a4a4a !important;}
+
+.hdng {display: inline; font-family: 'Gotham-Book' !important; font-size: 16px !important; font-weight: normal; margin: 0px !important;}
+
+@media (max-width:780px){
+    .content_search {margin-top: 40px !important;}
+    .search-rightpanel {margin-top: 0px !important;}
+}
+
+
+
+
+/*Styles for Campground Search Ends*/
