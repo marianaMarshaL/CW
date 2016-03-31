@@ -15838,6 +15838,10 @@ div.header-dekstop-tablet {
   width: 100%;
   text-align: center;
 }
+
+.elements .yellow-shadow span {
+  margin-right: 15px;
+}
 /********* End Element **********/
 
 /*** media for device *****/
