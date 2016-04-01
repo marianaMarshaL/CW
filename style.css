@@ -1438,6 +1438,7 @@ button.search:focus {
 	margin:0 auto;
 }
 
+/*
 .yellow-shadow {
     float: none;
     margin: 0 auto;
@@ -1456,6 +1457,7 @@ button.search:focus {
 	box-shadow: 0px 0px 0px 0px !important;
 	padding: 10px 0 0 0;
 }
+*/
 
 .shadow { background:url(images/btn-shadow.png) no-repeat bottom center; padding-bottom:8px; width:55%; margin:0 auto; background-size:100%; }
 
