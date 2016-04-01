@@ -15731,8 +15731,11 @@ div.header-dekstop-tablet {
   font-size: 20px;
   line-height:33px;
   color: #ffffff;
-  background-color: #255d77;
   padding: 15px 0;
+}
+
+.header-rv-protection-info-background {
+  background-color: #255d77;
 }
 
 .header-rv-protection-info > div:first-child{
