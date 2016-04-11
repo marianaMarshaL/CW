@@ -32244,4 +32244,40 @@ en'] .custom-select select {
 .no_mar {
   margin: 0px !important; }
 
+.no_float {
+  float: none !important;
+}
+
+.no_min_h {
+  min-height: 0px !important;
+}
+
+.no_height {
+  height: 0px !important;
+}
+
+.no_box_shadow {
+  box-shadow: none !important;
+}
+
+.black {
+  color: black;
+}
+
+.inline {
+  display: inline;
+}
+
+.no_bg_img {
+  background-image: none !important;
+}
+
+.no_bg_col {
+  background-color: none !important;
+}
+
+.initial_position {
+  position: initial !important;
+}
+
 /****End New CSS****/
