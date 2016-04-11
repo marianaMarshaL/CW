@@ -32221,3 +32221,17 @@ en'] .custom-select select {
   font-weight: bold;
   color: navy;
   margin: 3px 8px; }
+
+/****Add New CSS****/
+.no_bor {
+  border: 0 0 0 0 !important;
+}
+
+.no_bg {
+  background: none !important;
+}
+
+.left_text {
+  text-align: left !important;
+}
+/****End New CSS****/
