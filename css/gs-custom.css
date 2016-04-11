@@ -32231,7 +32231,7 @@ en'] .custom-select select {
 }
 
 .full_width {
-  width: 100%;
+  width: 100% !important;
 }
 
 .full_height {
@@ -32280,4 +32280,11 @@ en'] .custom-select select {
   position: initial !important;
 }
 
+.print_membership.print-temp .print_left {
+    padding: 0px !important;
+}
+
+.refer_friend .refer_friend_confirm .confirm_form label {
+      width: 100% !important;
+}
 /****End New CSS****/
