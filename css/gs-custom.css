@@ -32224,7 +32224,7 @@ en'] .custom-select select {
 
 /****Add New CSS****/
 .no_bor {
-  border: 0 0 0 0 !important;
+  border: none !important;
 }
 
 .no_bg {
@@ -32234,4 +32234,13 @@ en'] .custom-select select {
 .left_text {
   text-align: left !important;
 }
+
+.full_widt {
+  width: 100%;
+}
+
+.full_height {
+  height: 100%;
+}
+
 /****End New CSS****/
