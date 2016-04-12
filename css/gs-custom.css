@@ -32280,7 +32280,7 @@ en'] .custom-select select {
   position: initial !important;
 }
 
-.print_membership.print-temp .print_left {
+.print_membership.print-temp .print_left, .gsevents-details.brand-list .gsevents-detail-container .gsevents-details-rgt .related-links .related-links-cont,.mobile_app .mobile_app_right, .gs_events .gs_landing .gs_eve_land_right {
     padding: 0px !important;
 }
 
@@ -32295,4 +32295,6 @@ en'] .custom-select select {
 .affiliate-member .affiliate-member-sectionone .affiliate-member-left {
   padding: 0 0 0 0 !important;
 }
+
+
 /****End New CSS****/
