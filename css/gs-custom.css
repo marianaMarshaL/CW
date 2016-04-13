@@ -32238,7 +32238,7 @@ en'] .custom-select select {
   height: 100% !important;
 }
 
-.no_pad {
+.no_pad, .destination .destination-cont, .action_line .action_right{
   padding: 0px !important; }
 
 .no_mar {
@@ -32276,6 +32276,10 @@ en'] .custom-select select {
   background-color: none !important;
 }
 
+.no_list_style {
+  list-style-type: none !important;
+}
+
 .initial_position {
   position: initial !important;
 }
@@ -32298,6 +32302,9 @@ en'] .custom-select select {
 
 .normal_line_height {
     line-height: 25px !important;
+}
+.destination-great-lakes .destination-list ul li::before {
+  content: initial !important;
 }
 
 /****End New CSS****/
