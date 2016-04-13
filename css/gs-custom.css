@@ -32296,5 +32296,8 @@ en'] .custom-select select {
   padding: 0 0 0 0 !important;
 }
 
+.normal_line_height {
+    line-height: 25px !important;
+}
 
 /****End New CSS****/
