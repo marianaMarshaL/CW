@@ -32332,4 +32332,8 @@ h1.email_template {
   padding: 0px !important;
 }
 
+.no_top {
+    top: 0px !important;
+}
+
 /****End New CSS****/
