@@ -4398,7 +4398,7 @@ select::-ms-value {
 
 /*Gsc Page Starting*/
 .no-pad {
-  padding: 0; }
+  padding: 0!important; }
 
 .creditcard-rewards {
   background: #ebebeb;
@@ -32338,5 +32338,17 @@ h1.email_template {
 
 .sam-alert-page .red_box {
     border: 0px !important;
+}
+
+.no-border{
+  border: none!important;
+}
+
+.no-background{
+  background: none!important;
+}
+
+.no-margin{
+  margin: 0!important;
 }
 /****End New CSS****/
