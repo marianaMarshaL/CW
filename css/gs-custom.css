@@ -32234,11 +32234,11 @@ en'] .custom-select select {
   width: 100% !important;
 }
 
-.full_height {
+.full_height, .refer_friend .refer_friend_confirm .confirm_form label, .search_list .search-record .list-content{
   height: 100% !important;
 }
 
-.no_pad, .destination .destination-cont, .action_line .action_right{
+.no_pad, .destination .destination-cont, .action_line .action_right, .print_membership.print-temp .print_left, .gsevents-details.brand-list .gsevents-detail-container .gsevents-details-rgt .related-links .related-links-cont,.mobile_app .mobile_app_right, .gs_events .gs_landing .gs_eve_land_right, .delayed_post .delayed_table td{
   padding: 0px !important; }
 
 .no_mar, .forum-help-support .my-forums.forum_new.help-support-main {
@@ -32296,14 +32296,6 @@ en'] .custom-select select {
   line-height: normal !important;
 }
 
-.print_membership.print-temp .print_left, .gsevents-details.brand-list .gsevents-detail-container .gsevents-details-rgt .related-links .related-links-cont,.mobile_app .mobile_app_right, .gs_events .gs_landing .gs_eve_land_right {
-  padding: 0px !important;
-}
-
-.refer_friend .refer_friend_confirm .confirm_form label {
-  width: 100% !important;
-}
-
 .content h1 {
   margin-top: 0px !important;
 }
@@ -32328,20 +32320,12 @@ h1.email_template {
   font-weight:100;
 }
 
-.delayed_post .delayed_table td {
-  padding: 0px !important;
-}
-
 .no_top {
     top: 0px !important;
 }
 
 .sam-alert-page .red_box {
     border: 0px !important;
-}
-
-.search_list .search-record .list-content{
-    width: 100% !important;
 }
 
 .view-member-profile .profile-info .profile-desc .profile-box:after, .view-member-profile .profile-info .profile-desc .profile-box:before {
