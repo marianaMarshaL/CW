@@ -32241,7 +32241,7 @@ en'] .custom-select select {
 .no_pad, .destination .destination-cont, .action_line .action_right{
   padding: 0px !important; }
 
-.no_mar {
+.no_mar, .forum-help-support .my-forums.forum_new.help-support-main {
   margin: 0px !important; }
 
 .no_float {
@@ -32342,6 +32342,12 @@ h1.email_template {
 
 .search_list .search-record .list-content{
     width: 100% !important;
+}
+
+.view-member-profile .profile-info .profile-desc .profile-box:after, .view-member-profile .profile-info .profile-desc .profile-box:before {
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
 }
 
 /****End New CSS****/
