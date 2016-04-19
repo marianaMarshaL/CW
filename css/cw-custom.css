@@ -16428,6 +16428,10 @@ div.header-dekstop-tablet {
   height: 100% !important;
 }
 
+.pdp_giftcard .msg-desciption .msg-description-cnt {
+    border: none !important;
+}
+
 /**Vendor Page Starts Here**/
 .vendor-page {
   padding: 20px; }
