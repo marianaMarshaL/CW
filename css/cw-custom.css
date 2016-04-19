@@ -16424,6 +16424,133 @@ div.header-dekstop-tablet {
     top: 0px !important;
 }
 
+.full_height{
+  height: 100% !important;
+}
+
+/**Vendor Page Starts Here**/
+.vendor-page {
+  padding: 20px; }
+  .vendor-page h1 {
+    font: normal 32px Gotham-Medium;
+    color: #535353; }
+  .vendor-page h2 {
+    font: normal 28px Gotham-Book;
+    color: #4a4a4a; }
+  .vendor-page h4 {
+    font: normal 18px Gotham-Book;
+    color: #4a4a4a;
+    line-height: 1.5em; }
+  .vendor-page h5 {
+    font: normal 16px Gotham-Light;
+    color: #4a4a4a; }
+  .vendor-page .pt10 {
+    padding-top: 10px; }
+  .vendor-page .pt20 {
+    padding-top: 20px; }
+  .vendor-page .pt40 {
+    padding-top: 40px; }
+  .vendor-page label {
+    font: normal 18px Gotham-Medium;
+    color: #535353; }
+  .vendor-page .plr-0 {
+    padding-left: 0;
+    padding-right: 0; }
+  .vendor-page .mrg-0 {
+    margin: 0; }
+  .vendor-page .yellow-shadow input {
+    margin-bottom: 0 !important; }
+  .vendor-page .vendor-option-column {
+    border: solid #ccc 1px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px 0 30px; }
+    .vendor-page .vendor-option-column img {
+      margin: 0 auto;
+      padding-top: 20px; }
+    .vendor-page .vendor-option-column h4 {
+      text-align: center; }
+    .vendor-page .vendor-option-column h5 {
+      text-align: center; }
+  .vendor-page .vendor-info-form {
+    width: 90%;
+    margin: 30px auto; }
+    .vendor-page .vendor-info-form input {
+      margin-bottom: 20px; }
+    .vendor-page .vendor-info-form .custom-select {
+      margin-bottom: 20px; }
+    .vendor-page .vendor-info-form .radio-box .radio {
+      margin-top: 0; }
+      .vendor-page .vendor-info-form .radio-box .radio label {
+        font: normal 18px Gotham-Book;
+        color: #4a4a4a;
+        margin-right: 30px;
+        line-height: 25px;
+        padding-left: 10px; }
+    .vendor-page .vendor-info-form .nav-tabs li {
+      text-align: center; }
+      .vendor-page .vendor-info-form .nav-tabs li a {
+        text-decoration: none;
+        font: normal 28px Gotham-Book;
+        color: #ccc;
+        border: none; }
+      .vendor-page .vendor-info-form .nav-tabs li a:hover {
+        background-color: transparent; }
+    .vendor-page .vendor-info-form .nav-tabs .active a {
+      color: #1f4a6f;
+      border-bottom: solid #1d4567 6px; }
+  .vendor-page hr {
+    border-top: solid #ccc 1px;
+    margin-bottom: 40px; }
+  .vendor-page #single-prod {
+    padding: 50px 0 2px; }
+    .vendor-page #single-prod .add-ext-link {
+      color: #4f9cba;
+      font: normal 18px Gotham-Medium; }
+    .vendor-page #single-prod label {
+      color: #535353; }
+  .vendor-page #multiple-prod {
+    padding: 50px 0; }
+    .vendor-page #multiple-prod p {
+      color: #656d78;
+      font: normal 18px Gotham-Medium;
+      padding: 20px 0;
+      text-align: center; }
+  .vendor-page .vendor-btn {
+    background-color: #ffd50c;
+    color: #4a4a4a;
+    font: normal 12px Gotham-Medium;
+    padding: 12px 15px;
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer; }
+    .vendor-page .vendor-btn a {
+      color: #4a4a4a;
+      font: normal 12px Gotham-Medium;
+      text-decoration: none; }
+  .vendor-page .char-left-txt {
+    color: #666;
+    font: normal 16px Gotham-Book;
+    float: right;
+    padding: 10px 0; }
+  .vendor-page .vendor-confirm h2 {
+    color: #4a4a4a;
+    font: normal 24px Gotham-Book;
+    text-transform: uppercase;
+    padding-top: 20px; }
+  .vendor-page .vendor-confirm h4 {
+    line-height: 1.8em; }
+
+.center-img {
+  margin: 0 auto; }
+
+.asterisk-mark {
+  color: #bd1903; }
+
+/**Vendor Page End's Here**/
+
 
 
 /****End New CSS****/
