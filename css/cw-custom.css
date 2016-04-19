@@ -16339,3 +16339,91 @@ div.header-dekstop-tablet {
   }
 }
 /********** end new css /**********/
+
+/****Add New CSS****/
+.no_bor {
+  border: none !important;
+}
+
+.no_bg {
+  background: none !important;
+}
+
+.left_text {
+  text-align: left !important;
+}
+
+.full_width {
+  width: 100% !important;
+}
+
+.no_mar, .forum-help-support .my-forums.forum_new.help-support-main {
+  margin: 0px !important; }
+
+.no_float {
+  float: none !important;
+}
+
+.no_min_h {
+  min-height: 0px !important;
+}
+
+.no_height {
+  height: 0px !important;
+}
+
+.no_box_shadow {
+  box-shadow: none !important;
+}
+
+.black {
+  color: black;
+}
+
+.inline {
+  display: inline;
+}
+
+.no_bg_img {
+  background-image: none !important;
+}
+
+.no_bg_col {
+  background-color: none !important;
+}
+
+.no_list_style {
+  list-style-type: none !important;
+}
+
+.no_left {
+  left: 0 !important;
+}
+
+.no_right {
+  right: 0 !important;
+}
+
+.initial_position {
+  position: initial !important;
+}
+
+.normal_line_h {
+  line-height: normal !important;
+}
+
+.content h1 {
+  margin-top: 0px !important;
+}
+
+.normal_line_height {
+  line-height: 25px !important;
+}
+
+.no_top {
+    top: 0px !important;
+}
+
+
+
+/****End New CSS****/
