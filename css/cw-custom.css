@@ -16345,7 +16345,7 @@ div.header-dekstop-tablet {
   border: none !important;
 }
 
-.no_bg {
+.no_bg, .global-search-menu li.active a::after {
   background: none !important;
 }
 
