@@ -16412,6 +16412,14 @@ div.header-dekstop-tablet {
   line-height: normal !important;
 }
 
+.no_right {
+    right: 0px !important;
+}
+
+.pos_relative {
+    position: relative !important;
+}
+
 .content h1 {
   margin-top: 0px !important;
 }
