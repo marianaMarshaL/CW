@@ -16432,6 +16432,10 @@ div.header-dekstop-tablet {
     border: none !important;
 }
 
+.left {
+  float: left !important;
+}
+
 /**Vendor Page Starts Here**/
 .vendor-page {
   padding: 20px; }
