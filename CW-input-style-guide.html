@@ -473,7 +473,6 @@
         </div>
       </div>
 
-      <!-- **************************************************************************************** -->
       <div class="col-md-12 c1">
         <div class="col-md-5 static-left">
           <div class="apply-creditcard no_pad no_bor">
@@ -650,9 +649,8 @@
           </div>
         </div>
       </div>
-      <!-- **************************************************************************************** -->
 
-                   <div class="col-md-12 c2">
+      <div class="col-md-12 c2">
         <div class="col-md-5 static-left">
              <div class="add-itemto-list">                                       
              <input class="full_width" type="text" placeholder="enter item/catalog number" id="add">
@@ -739,7 +737,7 @@
         </div>
       </div>
         
-          <div class="col-md-12 c1">
+      <div class="col-md-12 c1">
         <div class="col-md-5 static-left">
             <div class="">
                   <select name="SupplierID" style="font-size:11px" onchange="form1.submit();">
@@ -881,29 +879,62 @@
 				&lt;option value="1984">Winnebago Industries Inc.&lt;/option>
 				&lt;option value="860">Xantrex Technology/Duracell&lt;/option>
 				&lt;option value="1686">Yamaha Motor Corp.&lt;/option>
-			&lt;/select>
+			   &lt;/select>
           </div>
         </div>
       </div>
         
-         <div class="col-md-12 c2">
+      <div class="col-md-12 c2">
         <div class="col-md-5 static-left">
             <div class="">
-                <div class="fieldset coupon">
-<input type="text" placeholder="Enter coupon code" value="" name="coupon_code" id="coupon_code" class="input-text mage-error full_width" data-validate="{required:true}" aria-invalid="true" aria-describedby="coupon_code-error"></div>
+              <div class="fieldset coupon">
+                <input type="text" placeholder="Enter coupon code" value="" name="coupon_code" id="coupon_code" class="input-text mage-error full_width" data-validate="{required:true}" aria-invalid="true" aria-describedby="coupon_code-error"></div>
             </div>
         </div>
         <div class="col-md-7">
           <div class="copy">
               &lt;div class="fieldset coupon">
-&lt;input type="text" placeholder="Enter coupon code" value="" name="coupon_code" id="coupon_code" class="input-text mage-error" data-validate="{required:true}" aria-invalid="true" aria-describedby="coupon_code-error">&lt;/div>
+                &lt;input type="text" placeholder="Enter coupon code" value="" name="coupon_code" id="coupon_code" class="input-text mage-error" data-validate="{required:true}" aria-invalid="true" aria-describedby="coupon_code-error">
+              &lt;/div>
           </div>
         </div>
       </div>
         
 
-        
-        
+      <div class="col-md-12 c1">
+        <div class="col-md-5 static-left">
+          <div class="global-cart">
+            <div class="order-summary no_mar">
+              <div aria-labelledby="block-discount-heading" data-role="content" class="coupon-form no_pad">
+               <form method="post" action="http://localhost/camping2/checkout/cart/couponPost/" id="discount-coupon-form" novalidate="novalidate">
+                 <div class="fieldset coupon">
+                   <input type="hidden" value="0" id="remove-coupon" name="remove">
+                    <input type="text" placeholder="Enter coupon code" value="" name="coupon_code" id="coupon_code" class="input-text mage-error" data-validate="{required:true}" aria-invalid="true" aria-describedby="coupon_code-error"><div for="coupon_code" generated="true" class="mage-error" id="coupon_code-error">This is a required field.</div>
+                     <button value="APPLY" type="button" class="apply ">APPLY</button>
+                  </div>
+               </form>
+               </div> 
+            </div>  
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="copy">
+            &lt;div class="global-cart"&gt;
+              &lt;div class="order-summary no_mar"&gt;
+                &lt;div aria-labelledby="block-discount-heading" data-role="content" class="coupon-form no_pad"&gt;
+                 &lt;form method="post" action="http://localhost/camping2/checkout/cart/couponPost/" id="discount-coupon-form" novalidate="novalidate"&gt;
+                   &lt;div class="fieldset coupon"&gt;
+                     &lt;input type="hidden" value="0" id="remove-coupon" name="remove"&gt;
+                      &lt;input type="text" placeholder="Enter coupon code" value="" name="coupon_code" id="coupon_code" class="input-text mage-error" data-validate="{required:true}" aria-invalid="true" aria-describedby="coupon_code-error"&gt;&lt;div for="coupon_code" generated="true" class="mage-error" id="coupon_code-error">This is a required field.&lt;/div&gt;
+                       &lt;button value="APPLY" type="button" class="apply "&gt;APPLY&lt;/button&gt;
+                    &lt;/div&gt;
+                 &lt;/form&gt;
+                 &lt;/div&gt;
+              &lt;/div&gt; 
+            &lt;/div&gt;
+          </div>
+        </div>
+      </div>  
         
       <!--List Style Guide End-->
 
